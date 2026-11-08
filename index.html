@@ -1,0 +1,4187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIOUX — The Art of Being Worthy | الصفحة الرئيسية</title>
+<meta name="description" id="metaDescription" content="AXIOUX مجتمع وفريق تقني يبني منصات الذكاء الاصطناعي والأنظمة السحابية، ويوثّق المعرفة الهندسية — لأن الجدارة بتنبني بالشغل.">
+<meta name="theme-color" content="#070B14">
+<link rel="canonical" id="canonicalLink" href="https://axioux.com/">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AXIOUX">
+<meta property="og:title" id="ogTitle" content="AXIOUX — The Art of Being Worthy">
+<meta property="og:description" id="ogDescription" content="مجتمع تقني يبني، يراجع، يوثّق، ويطوّر مشاريع عملية في الذكاء الاصطناعي والأنظمة السحابية.">
+<meta property="og:url" id="ogUrl" content="https://axioux.com/">
+<meta property="og:image" id="ogImage" content="https://axioux.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" id="twTitle" content="AXIOUX — The Art of Being Worthy">
+<meta name="twitter:description" id="twDescription" content="مجتمع تقني يبني منصات الذكاء الاصطناعي والأنظمة السحابية — الجدارة بتنبني بالشغل.">
+<meta name="twitter:image" id="twImage" content="https://axioux.com/assets/og.png">
+
+<!-- Inline SVG Favicon built from butterfly-wing X paths on #0F172A rounded square -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230F172A'/%3E%3Cpath d='M18 22 C38 22, 46 42, 50 50 C46 58, 38 78, 18 78 C32 66, 38 56, 44 50 C38 44, 32 34, 18 22 Z' fill='%23F8F7F3'/%3E%3Cpath d='M82 22 C62 22, 54 42, 50 50 C54 58, 62 78, 82 78 C68 66, 62 56, 56 50 C62 44, 68 34, 82 22 Z' fill='%233B82F6'/%3E%3Cpath d='M50 8 L53 23 L62 26 L53 29 L50 44 L47 29 L38 26 L47 23 Z' fill='%2360A5FA'/%3E%3C/svg%3E">
+
+<!-- JSON-LD Organization Structured Data -->
+<script type="application/ld+json" id="orgJsonLd">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AXIOUX",
+  "alternateName": "AXIOUX — The Art of Being Worthy",
+  "description": "Technology community and engineering team building AI platforms, cloud systems, and documented technical education.",
+  "url": "https://axioux.com/",
+  "logo": "https://axioux.com/assets/og.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Gaza",
+    "addressCountry": "PS"
+  }
+}
+</script>
+
+<!-- Trimmed Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Cormorant+Garamond:wght@600;700&family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<noscript><style>#introSplash { display: none !important; }</style></noscript>
+<style>
+  :root {
+    --bg-cosmic: #060A14;
+    --bg-surface: rgba(15, 23, 42, 0.72);
+    --bg-surface-solid: #0F172A;
+    --bg-card: rgba(17, 27, 48, 0.78);
+    --bg-card-hover: rgba(23, 37, 68, 0.92);
+    --border-subtle: rgba(148, 163, 184, 0.16);
+    --border-glow: rgba(59, 130, 246, 0.55);
+    --blue: #3B82F6;
+    --blue-light: #60A5FA;
+    --cyan: #38BDF8;
+    --teal: #2DD4BF;
+    --ivory: #F8F7F3;
+    --text-main: #F8F7F3;
+    --text-muted: #94A3B8;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --arabic-head: 'Cairo', sans-serif;
+    --arabic-body: 'IBM Plex Sans Arabic', sans-serif;
+    --latin: 'Inter', sans-serif;
+    --radius: 20px;
+  }
+
+  body.ivory-mode {
+    --bg-cosmic: #F8F7F3;
+    --bg-surface: rgba(255, 255, 255, 0.85);
+    --bg-surface-solid: #FFFFFF;
+    --bg-card: rgba(255, 255, 255, 0.92);
+    --bg-card-hover: #FFFFFF;
+    --border-subtle: rgba(15, 23, 42, 0.12);
+    --border-glow: rgba(37, 99, 235, 0.55);
+    --text-main: #0F172A;
+    --text-muted: #475569;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: var(--bg-cosmic);
+    color: var(--text-main);
+    font-family: var(--arabic-body);
+    line-height: 1.85;
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    transition: background-color 0.35s ease, color 0.35s ease;
+  }
+
+  html[lang="en"] body {
+    font-family: var(--latin);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--blue-light);
+    outline-offset: 3px;
+  }
+
+  .skip-link {
+    position: fixed;
+    top: -100px;
+    inset-inline-start: 16px;
+    z-index: 10000;
+    background: var(--blue);
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-family: var(--arabic-head);
+    font-weight: 800;
+    text-decoration: none;
+    transition: top 0.2s ease;
+  }
+
+  .skip-link:focus {
+    top: 14px;
+  }
+
+  /* ---------------- INTERACTIVE PARTICLE / STARFIELD BACKGROUND CANVAS ---------------- */
+  #starParticlesCanvas {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    display: block;
+  }
+
+  header, main, footer {
+    position: relative;
+    z-index: 2;
+  }
+
+  .container {
+    width: min(100% - 48px, 1160px);
+    margin: 0 auto;
+  }
+
+  section {
+    padding: 110px 0;
+    position: relative;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 64px;
+  }
+
+  .eyebrow {
+    font-family: var(--latin);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--blue-light);
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  .section-header h2 {
+    font-family: var(--arabic-head);
+    font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.35;
+    margin-bottom: 14px;
+  }
+
+  .section-header p {
+    font-size: 1.02rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+  }
+
+  /* ---------------- BUTTERFLY -> X -> SPLIT CURTAIN INTRO SPLASH ---------------- */
+  .intro-splash {
+    position: fixed;
+    inset: 0;
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    pointer-events: auto;
+  }
+
+  .splash-gate-left,
+  .splash-gate-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 51%;
+    background:
+      radial-gradient(circle at 50% 45%, rgba(59, 130, 246, 0.22), transparent 55%),
+      linear-gradient(180deg, #04070F 0%, #0F172A 100%);
+    z-index: 1;
+    transition: transform 0.95s cubic-bezier(0.77, 0, 0.175, 1), opacity 0.95s ease;
+  }
+
+  .splash-gate-left { left: 0; border-right: 1px solid rgba(96, 165, 250, 0.18); }
+  .splash-gate-right { right: 0; border-left: 1px solid rgba(96, 165, 250, 0.18); }
+
+  .intro-splash.opening .splash-gate-left { transform: translateX(-104%) skewX(-4deg); opacity: 0; }
+  .intro-splash.opening .splash-gate-right { transform: translateX(104%) skewX(4deg); opacity: 0; }
+  .intro-splash.hidden { visibility: hidden; pointer-events: none; }
+
+  .splash-stage {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    transition: transform 0.85s ease, opacity 0.7s ease;
+  }
+
+  .intro-splash.opening .splash-stage {
+    transform: scale(1.18);
+    opacity: 0;
+  }
+
+  .butterfly-x-wrap {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    display: grid;
+    place-items: center;
+  }
+
+  .splash-morph-svg {
+    width: 180px;
+    height: 180px;
+    overflow: visible;
+  }
+
+  .bf-group {
+    transform-origin: 100px 105px;
+    animation: bfFadeToX 1.3s ease-in-out forwards;
+  }
+
+  .bf-wing-l {
+    transform-origin: 100px 105px;
+    animation: flapLeft 0.34s ease-in-out 3 alternate;
+  }
+
+  .bf-wing-r {
+    transform-origin: 100px 105px;
+    animation: flapRight 0.34s ease-in-out 3 alternate;
+  }
+
+  .x-emblem-group {
+    transform-origin: 100px 105px;
+    opacity: 0;
+    animation: xRevealLock 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.95s forwards;
+  }
+
+  @keyframes flapLeft {
+    0% { transform: rotateY(0deg) scaleX(1); }
+    100% { transform: rotateY(55deg) scaleX(0.58) translateY(-4px); }
+  }
+
+  @keyframes flapRight {
+    0% { transform: rotateY(0deg) scaleX(1); }
+    100% { transform: rotateY(-55deg) scaleX(0.58) translateY(-4px); }
+  }
+
+  @keyframes bfFadeToX {
+    0%, 72% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(0.72); }
+  }
+
+  @keyframes xRevealLock {
+    0% { opacity: 0; transform: scale(0.65); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  .splash-wordmark {
+    font-family: var(--serif);
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    color: #F8F7F3;
+    margin-top: 8px;
+  }
+
+  .splash-tagline-en {
+    font-family: var(--latin);
+    font-size: 0.74rem;
+    letter-spacing: 0.34em;
+    color: #93C5FD;
+    margin-top: 4px;
+  }
+
+  .splash-tagline-ar {
+    font-family: var(--arabic-head);
+    font-size: 0.95rem;
+    color: #CBD5E1;
+    margin-top: 8px;
+  }
+
+  .splash-skip-btn {
+    margin-top: 20px;
+    padding: 9px 22px;
+    min-height: 44px;
+    border-radius: 100px;
+    border: 1px solid rgba(147, 197, 253, 0.35);
+    background: rgba(15, 23, 42, 0.75);
+    color: #E2E8F0;
+    font-family: var(--arabic-head);
+    font-size: 0.84rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .splash-skip-btn:hover {
+    background: var(--blue);
+    color: #FFFFFF;
+  }
+
+  /* ---------------- HEADER / NAVBAR ---------------- */
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(6, 10, 20, 0.78);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  body.ivory-mode .site-header {
+    background: rgba(248, 247, 243, 0.88);
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 76px;
+    gap: 16px;
+  }
+
+  .brand-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--text-main);
+  }
+
+  .brand-emblem-mini {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+    background: #0F172A;
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    display: grid;
+    place-items: center;
+  }
+
+  .brand-text-wrap {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+
+  .brand-wordmark {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: var(--text-main);
+  }
+
+  .brand-sub {
+    font-family: var(--latin);
+    font-size: 0.58rem;
+    letter-spacing: 0.22em;
+    color: var(--blue-light);
+    margin-top: 2px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .nav-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-family: var(--arabic-head);
+    font-size: 0.92rem;
+    font-weight: 700;
+    transition: color 0.2s ease;
+  }
+
+  .nav-link:hover {
+    color: var(--blue-light);
+  }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .lang-btn,
+  .mode-btn,
+  .nav-toggle {
+    min-height: 44px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-main);
+    font-family: var(--arabic-head);
+    font-size: 0.84rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .lang-btn:hover,
+  .mode-btn:hover {
+    border-color: var(--blue-light);
+    background: rgba(59, 130, 246, 0.14);
+  }
+
+  .nav-toggle {
+    display: none;
+    min-width: 44px;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  /* ---------------- SPACIOUS INTERACTIVE HERO SECTION ---------------- */
+  .hero {
+    min-height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 96px 0 84px;
+  }
+
+  .hero-content {
+    max-width: 860px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .hero-pill {
+    font-family: var(--latin);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.24em;
+    padding: 7px 18px;
+    border-radius: 100px;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    color: var(--blue-light);
+  }
+
+  .hero-logo-svg {
+    width: min(100%, 540px);
+    height: auto;
+    filter: drop-shadow(0 12px 34px rgba(59, 130, 246, 0.22));
+  }
+
+  .hero-slogan-en {
+    font-family: var(--latin);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.38em;
+    color: var(--blue-light);
+    margin-top: -10px;
+  }
+
+  .hero-title-ar {
+    font-family: var(--arabic-head);
+    font-size: clamp(2rem, 4.2vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.35;
+    color: var(--text-main);
+    max-width: 760px;
+  }
+
+  .hero-title-ar span {
+    background: linear-gradient(90deg, #60A5FA, #38BDF8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-lead {
+    font-size: 1.08rem;
+    color: var(--text-muted);
+    max-width: 640px;
+    line-height: 1.85;
+  }
+
+  .hero-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 8px;
+  }
+
+  .btn {
+    min-height: 46px;
+    padding: 12px 26px;
+    border-radius: 100px;
+    font-family: var(--arabic-head);
+    font-size: 0.94rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+    color: #FFFFFF;
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.35);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 34px rgba(59, 130, 246, 0.5);
+  }
+
+  .btn-outline {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-main);
+    border-color: var(--border-subtle);
+  }
+
+  .btn-outline:hover {
+    border-color: var(--blue-light);
+    background: rgba(59, 130, 246, 0.12);
+    transform: translateY(-3px);
+  }
+
+  .wings-mini-interactive {
+    margin-top: 18px;
+    padding: 20px 28px;
+    border-radius: 22px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    backdrop-filter: blur(14px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    max-width: 520px;
+    width: 100%;
+  }
+
+  .wings-stage {
+    position: relative;
+    height: 126px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    direction: rtl;
+  }
+
+  .wing-circle {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--arabic-head);
+    font-weight: 800;
+    font-size: 0.9rem;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.45s ease;
+  }
+
+  .wing-discipline {
+    background: #0F172A;
+    border: 2px solid #475569;
+    color: #F8F7F3;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.45);
+  }
+
+  .wing-creativity {
+    background: #3B82F6;
+    border: 2px solid #93C5FD;
+    color: #FFFFFF;
+    box-shadow: 0 8px 22px rgba(59, 130, 246, 0.45);
+  }
+
+  .wings-stage.merged .wing-circle span,
+  .wings-stage.merged .wing-circle small {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+
+  .wings-stage.merged .wing-discipline {
+    transform: translateX(-58px) scale(0.18);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .wings-stage.merged .wing-creativity {
+    transform: translateX(58px) scale(0.18);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .spark-center {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0.35) rotate(-25deg);
+    transition: opacity 0.55s ease, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .wings-stage.merged .spark-center {
+    opacity: 1;
+    transform: scale(1.25) rotate(0deg);
+    filter: drop-shadow(0 0 24px rgba(96, 165, 250, 0.95)) drop-shadow(0 0 48px rgba(59, 130, 246, 0.65));
+  }
+
+  .wings-mini-interactive.merged-state #equationStatusText {
+    color: #FFFFFF !important;
+    font-size: 1.12rem !important;
+    text-shadow: 0 0 18px rgba(96, 165, 250, 0.95);
+  }
+
+  .credibility-stats-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 16px;
+    padding: 20px 26px;
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    backdrop-filter: blur(12px);
+  }
+
+  .stat-item { text-align: center; }
+  .stat-num {
+    display: block;
+    font-family: var(--latin);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--blue-light);
+    line-height: 1.2;
+  }
+  .stat-lbl {
+    font-size: 0.84rem;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* ---------------- DRAMATIC WINDING S-CURVE ORBITAL PATH FOR PROJECTS ---------------- */
+  .board-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+  }
+
+  .filter-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    min-height: 44px;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    font-family: var(--arabic-head);
+    font-size: 0.88rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.22s ease;
+  }
+
+  .filter-btn.active,
+  .filter-btn:hover {
+    background: var(--blue);
+    color: #FFFFFF;
+    border-color: var(--blue);
+    box-shadow: 0 8px 22px rgba(59, 130, 246, 0.35);
+  }
+
+  .projects-curved-stage {
+    position: relative;
+    width: 100%;
+    padding: 40px 0 60px;
+    min-height: 980px;
+  }
+
+  .curved-path-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    overflow: visible;
+  }
+
+  .curve-ribbon-bg {
+    fill: none;
+    stroke: rgba(59, 130, 246, 0.14);
+    stroke-width: 22;
+    stroke-linecap: round;
+    filter: blur(8px);
+  }
+
+  .curve-core-solid {
+    fill: none;
+    stroke: url(#curveGrad);
+    stroke-width: 4;
+    stroke-linecap: round;
+    filter: drop-shadow(0 0 14px rgba(96, 165, 250, 0.85));
+  }
+
+  .curve-glow-line {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-dasharray: 14 22;
+    opacity: 0.7;
+    animation: dashFlow 12s linear infinite;
+  }
+
+  .curve-branch-line {
+    fill: none;
+    stroke: rgba(96, 165, 250, 0.55);
+    stroke-width: 2.2;
+    stroke-dasharray: 6 6;
+  }
+
+  .curve-node-ring {
+    fill: #060A14;
+    stroke-width: 3.5;
+    filter: drop-shadow(0 0 12px currentColor);
+  }
+
+  .curve-node-pulse {
+    fill: none;
+    stroke-width: 2;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: nodeRingPulse 2.4s ease-out infinite;
+  }
+
+  @keyframes nodeRingPulse {
+    0% { transform: scale(0.8); opacity: 0.95; }
+    100% { transform: scale(2.4); opacity: 0; }
+  }
+
+  @keyframes dashFlow {
+    to { stroke-dashoffset: -360; }
+  }
+
+  .projects-curved-track {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    width: 100%;
+  }
+
+  .project-card {
+    position: relative;
+    background: var(--bg-card);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(96, 165, 250, 0.28);
+    border-radius: 28px;
+    padding: 32px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(36px) scale(0.96);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    transition:
+      transform 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+      opacity 0.55s ease,
+      border-color 0.3s ease,
+      box-shadow 0.3s ease,
+      background-color 0.3s ease;
+  }
+
+  .project-card.in-view {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .project-card::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--blue-light);
+    border: 3px solid #060A14;
+    box-shadow: 0 0 16px var(--blue-light);
+    transform: translateY(-50%);
+  }
+
+  @media (min-width: 641px) {
+    .project-card[data-curve-pos="1"] {
+      width: 47%;
+      align-self: flex-start;
+      margin-inline-start: 1%;
+      transform: rotate(-1.2deg);
+    }
+    .project-card[data-curve-pos="1"]::after {
+      inset-inline-end: -9px;
+      background: #60A5FA;
+    }
+
+    .project-card[data-curve-pos="2"] {
+      width: 47%;
+      align-self: flex-end;
+      margin-inline-end: 1%;
+      transform: rotate(1.2deg);
+    }
+    .project-card[data-curve-pos="2"]::after {
+      inset-inline-start: -9px;
+      background: #38BDF8;
+    }
+
+    .project-card[data-curve-pos="3"] {
+      width: 48%;
+      align-self: flex-start;
+      margin-inline-start: 4%;
+      transform: rotate(-0.9deg);
+    }
+    .project-card[data-curve-pos="3"]::after {
+      inset-inline-end: -9px;
+      background: #2DD4BF;
+    }
+
+    .project-card.expanded {
+      width: 86% !important;
+      align-self: center !important;
+      margin-inline: auto !important;
+      transform: rotate(0deg) scale(1.01) !important;
+      z-index: 10;
+    }
+  }
+
+  .curve-waypoint-badge {
+    position: absolute;
+    top: -15px;
+    inset-inline-end: 28px;
+    padding: 4px 14px;
+    border-radius: 100px;
+    font-family: var(--latin);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    background: #0F172A;
+    color: #93C5FD;
+    border: 1px solid rgba(96, 165, 250, 0.45);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  }
+
+  .project-card[data-domain="ai"]:hover {
+    transform: translateY(-8px) scale(1.015);
+    border-color: #60A5FA;
+    box-shadow: 0 24px 52px rgba(59, 130, 246, 0.25), 0 0 28px rgba(96, 165, 250, 0.2);
+    background: var(--bg-card-hover);
+  }
+
+  .project-card[data-domain="ai"] .cat-anim-icon {
+    color: #60A5FA;
+    animation: aiPulseSpin 4s ease-in-out infinite;
+  }
+
+  @keyframes aiPulseSpin {
+    0%, 100% { transform: scale(1) rotate(0deg); filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.6)); }
+    50% { transform: scale(1.18) rotate(12deg); filter: drop-shadow(0 0 14px rgba(96, 165, 250, 0.95)); }
+  }
+
+  .project-card[data-domain="cloud"]:hover {
+    transform: translateY(-8px) scale(1.015);
+    border-color: var(--cyan);
+    box-shadow: 0 24px 52px rgba(56, 189, 248, 0.22), 0 0 28px rgba(56, 189, 248, 0.18);
+    background: var(--bg-card-hover);
+  }
+
+  .project-card[data-domain="cloud"] .cat-anim-icon {
+    color: var(--cyan);
+    animation: cloudFloatWave 3.2s ease-in-out infinite;
+  }
+
+  @keyframes cloudFloatWave {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); filter: drop-shadow(0 6px 12px rgba(56, 189, 248, 0.75)); }
+  }
+
+  .project-card[data-domain="health"]:hover {
+    transform: translateY(-8px) scale(1.015);
+    border-color: var(--teal);
+    box-shadow: 0 24px 52px rgba(45, 212, 191, 0.22), 0 0 28px rgba(45, 212, 191, 0.18);
+    background: var(--bg-card-hover);
+  }
+
+  .project-card[data-domain="health"] .cat-anim-icon {
+    color: var(--teal);
+    animation: healthBeatPulse 1.8s ease-in-out infinite;
+  }
+
+  @keyframes healthBeatPulse {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.22); filter: drop-shadow(0 0 12px rgba(45, 212, 191, 0.9)); }
+    45% { transform: scale(0.96); }
+    65% { transform: scale(1.14); }
+  }
+
+  .proj-meta-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .proj-cat-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .cat-anim-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-grid;
+    place-items: center;
+  }
+
+  .cat-anim-icon svg {
+    width: 22px;
+    height: 22px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+  }
+
+  .proj-status-tag {
+    font-family: var(--arabic-head);
+    font-size: 0.74rem;
+    font-weight: 800;
+    color: #93C5FD;
+    background: rgba(59, 130, 246, 0.16);
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  .proj-domain-pill {
+    font-family: var(--arabic-head);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text-main);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-subtle);
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  .project-card h3 {
+    font-family: var(--arabic-head);
+    font-size: 1.42rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.4;
+    margin: 4px 0;
+  }
+
+  .proj-short-summary {
+    font-size: 0.98rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .proj-specs-box {
+    display: none;
+    margin-top: 16px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--border-subtle);
+    flex-direction: column;
+    gap: 14px;
+    animation: fadeUp 0.35s ease;
+  }
+
+  .project-card.expanded .proj-specs-box {
+    display: flex !important;
+  }
+
+  .proj-specs-box h4 {
+    font-family: var(--arabic-head);
+    font-size: 0.96rem;
+    font-weight: 800;
+    color: var(--blue-light);
+    margin-bottom: 6px;
+  }
+
+  .proj-feature-list {
+    list-style: none;
+    display: grid;
+    gap: 8px;
+  }
+
+  .proj-feature-list li {
+    position: relative;
+    padding-inline-start: 18px;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .proj-feature-list li::before {
+    content: "✦";
+    position: absolute;
+    inset-inline-start: 0;
+    color: var(--blue-light);
+  }
+
+  .proj-feature-list li strong {
+    color: var(--text-main);
+  }
+
+  .proj-impact-box {
+    background: rgba(59, 130, 246, 0.1);
+    border-inline-start: 3px solid var(--blue-light);
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    color: var(--text-main);
+  }
+
+  .tech-stack-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin-top: 6px;
+  }
+
+  .tech-stack-tags li {
+    font-family: var(--latin);
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 4px 11px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-main);
+  }
+
+  .proj-sim-wrap {
+    margin-top: 8px;
+    border-radius: 14px;
+    background: rgba(6, 10, 20, 0.75);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+    padding: 14px 16px;
+  }
+
+  .proj-sim-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .proj-sim-badge {
+    font-family: var(--latin);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #93C5FD;
+  }
+
+  .btn-run-sim {
+    background: var(--blue);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 16px;
+    min-height: 40px;
+    font-family: var(--arabic-head);
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .proj-sim-output {
+    display: none;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(59, 130, 246, 0.1);
+    border-inline-start: 3px solid #60A5FA;
+    font-size: 0.85rem;
+    color: #E2E8F0;
+  }
+
+  .proj-sim-output.visible {
+    display: block;
+  }
+
+  .btn-read-more {
+    min-height: 44px;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(96, 165, 250, 0.45);
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--blue-light);
+    font-family: var(--arabic-head);
+    font-size: 0.88rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.22s ease;
+  }
+
+  .btn-read-more:hover {
+    background: var(--blue);
+    color: #FFFFFF;
+    border-color: var(--blue);
+  }
+
+  .current-slot-card {
+    background: var(--bg-card);
+    border: 2px dashed rgba(96, 165, 250, 0.4);
+    border-radius: 24px;
+    padding: 40px 28px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .admin-only { display: none !important; }
+  body.is-admin .admin-only { display: inline-flex !important; }
+
+  .add-project-drawer {
+    display: none;
+    background: var(--bg-card);
+    border: 1px solid var(--blue);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 32px;
+  }
+  .add-project-drawer.open { display: block; }
+  .drawer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  /* ---------------- ARTICLES SECTION ---------------- */
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+  }
+
+  .article-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--border-subtle);
+    border-radius: 22px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+    cursor: pointer;
+    transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
+  }
+
+  .article-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--blue-light);
+    box-shadow: 0 20px 44px rgba(59, 130, 246, 0.16);
+  }
+
+  .article-card.expanded {
+    grid-column: 1 / -1;
+    border-color: var(--blue);
+  }
+
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+
+  .article-cat-badge {
+    font-family: var(--arabic-head);
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: var(--blue);
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  .article-read-time {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .article-card h3 {
+    font-family: var(--arabic-head);
+    font-size: 1.22rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.45;
+    margin-bottom: 10px;
+  }
+
+  .article-card p {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .article-inline-body {
+    display: none;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--border-subtle);
+    font-size: 0.94rem;
+    line-height: 1.85;
+    color: var(--text-muted);
+  }
+
+  .article-inline-body h4 {
+    font-family: var(--arabic-head);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--blue-light);
+    margin: 14px 0 6px;
+  }
+
+  .article-card.expanded .article-inline-body {
+    display: block;
+  }
+
+  .article-author-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-subtle);
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .article-author-info {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .article-author-info span {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  /* ---------------- COURSES COMING SOON BANNER ---------------- */
+  .coming-soon-banner {
+    background: var(--bg-card);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    border-radius: 24px;
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  /* ---------------- TEAM & BESPOKE CREST AVATARS ---------------- */
+  .leadership-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 28px;
+  }
+
+  .leader-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--border-subtle);
+    border-radius: 22px;
+    padding: 28px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .leader-avatar,
+  .member-avatar-circle {
+    width: 86px;
+    height: 86px;
+    border-radius: 24px;
+    background: radial-gradient(circle at 30% 25%, #1E3A8A 0%, #090F1E 75%);
+    border: 1.5px solid rgba(96, 165, 250, 0.48);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45), inset 0 0 18px rgba(59, 130, 246, 0.22);
+    color: #F8F7F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--latin);
+    font-weight: 800;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .leader-card:hover .leader-avatar,
+  .member-card:hover .member-avatar-circle {
+    transform: translateY(-4px) scale(1.06) rotate(-2deg);
+    border-color: #93C5FD;
+    box-shadow: 0 16px 34px rgba(59, 130, 246, 0.35), inset 0 0 22px rgba(96, 165, 250, 0.35);
+  }
+
+  .leader-role {
+    font-family: var(--latin);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    color: var(--blue-light);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .leader-card h3 {
+    font-family: var(--latin);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 6px;
+  }
+
+  .leader-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  .core-team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+
+  .member-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 24px 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .member-card .member-avatar-circle {
+    margin: 0 auto 12px;
+  }
+
+  .member-card strong {
+    display: block;
+    font-family: var(--arabic-head);
+    font-size: 1.08rem;
+    color: var(--text-main);
+  }
+
+  .member-card span {
+    display: block;
+    font-family: var(--latin);
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .member-click-hint {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: var(--arabic-head);
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: var(--blue-light);
+    background: rgba(59, 130, 246, 0.12);
+    padding: 3px 12px;
+    border-radius: 100px;
+  }
+
+  .leader-card:hover,
+  .member-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--blue-light);
+    box-shadow: 0 18px 38px rgba(59, 130, 246, 0.16);
+  }
+
+  .member-inline-drawer {
+    display: none;
+    width: 100%;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border-subtle);
+    text-align: start;
+  }
+
+  .member-card.expanded {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    text-align: start;
+    padding: 28px;
+    border-color: var(--blue-light);
+  }
+
+  .member-card.expanded .member-avatar-circle {
+    margin: 0;
+    width: 86px;
+    height: 86px;
+  }
+
+  .member-card.expanded .member-main-wrap {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .member-card.expanded .member-inline-drawer,
+  .leader-card.expanded .member-inline-drawer {
+    display: block;
+  }
+
+  .leader-card.expanded {
+    grid-column: 1 / -1;
+    border-color: var(--blue-light);
+  }
+
+  .team-chip-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--text-main);
+    font-family: var(--arabic-head);
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .team-chip-btn:hover {
+    background: var(--blue);
+    color: #FFFFFF;
+  }
+
+  .how-to-join-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .join-step-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .join-step-num {
+    font-family: var(--latin);
+    font-size: 0.74rem;
+    font-weight: 800;
+    color: var(--blue-light);
+    letter-spacing: 0.14em;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  /* ---------------- CONTACT & FOOTER ---------------- */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 28px;
+  }
+
+  .surface-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+    border-radius: 24px;
+    padding: 34px;
+  }
+
+  .form-field {
+    margin-bottom: 16px;
+  }
+
+  .form-field label {
+    display: block;
+    font-family: var(--arabic-head);
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 6px;
+  }
+
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    width: 100%;
+    padding: 12px 16px;
+    min-height: 46px;
+    font-size: 16px !important;
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(6, 10, 20, 0.55);
+    color: var(--text-main);
+    font-family: inherit;
+  }
+
+  body.ivory-mode .form-field input,
+  body.ivory-mode .form-field select,
+  body.ivory-mode .form-field textarea {
+    background: #F8F7F3;
+  }
+
+  .toast-msg {
+    display: none;
+    margin-top: 14px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid var(--blue-light);
+    color: #F8F7F3;
+    font-size: 0.88rem;
+  }
+
+  .social-links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .social-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-main);
+    font-family: var(--latin);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .social-icon-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+
+  .site-footer {
+    padding: 36px 0;
+    border-top: 1px solid var(--border-subtle);
+    background: rgba(4, 7, 15, 0.85);
+    color: #94A3B8;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .reader-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9500;
+    background: rgba(6, 10, 20, 0.85);
+    backdrop-filter: blur(10px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .reader-modal.open { display: flex; }
+  .reader-box {
+    max-width: 780px;
+    width: 100%;
+    max-height: 86vh;
+    overflow-y: auto;
+    background: var(--bg-surface-solid);
+    color: var(--text-main);
+    border: 1px solid var(--blue);
+    border-radius: 22px;
+    padding: 32px;
+  }
+
+  .reader-close {
+    float: inline-end;
+    background: var(--blue);
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: var(--arabic-head);
+    font-weight: 700;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #introSplash { display: none !important; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* ---------------- SIMPLIFIED, OVERFLOW-SAFE VERTICAL MOBILE & TABLET LAYOUT ---------------- */
+  @media (max-width: 640px) {
+    .curved-path-svg,
+    .project-card::after {
+      display: none !important;
+    }
+    .projects-curved-stage {
+      min-height: auto;
+      padding: 10px 0 20px;
+    }
+    .projects-curved-track {
+      gap: 22px;
+    }
+    .project-card {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      align-self: stretch !important;
+      transform: none !important;
+      opacity: 1 !important;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .articles-grid,
+    .leadership-row,
+    .contact-grid,
+    .how-to-join-grid,
+    .drawer-grid,
+    .credibility-stats-strip {
+      grid-template-columns: 1fr;
+    }
+    .core-team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-toggle {
+      display: inline-flex;
+    }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 76px;
+      right: 16px;
+      left: 16px;
+      background: #0F172A;
+      border: 1px solid rgba(96, 165, 250, 0.35);
+      border-radius: 16px;
+      padding: 16px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+    }
+    .nav-links.open {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      width: calc(100% - 28px);
+    }
+    section {
+      padding: 68px 0;
+    }
+    .section-header {
+      margin-bottom: 36px;
+    }
+    .core-team-grid {
+      grid-template-columns: 1fr;
+    }
+    .leader-card,
+    .member-card.expanded {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .member-card.expanded .member-inline-drawer,
+    .leader-card.expanded .member-inline-drawer {
+      text-align: start;
+    }
+    .project-card,
+    .article-card,
+    .surface-card,
+    .coming-soon-banner {
+      padding: 22px 18px;
+    }
+    .curve-waypoint-badge {
+      position: static;
+      align-self: flex-start;
+      margin-bottom: 4px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .brand-sub { display: none; }
+    .lang-btn, .mode-btn { padding: 6px 10px; font-size: 0.75rem; }
+  }
+</style>
+</head>
+<body>
+<a href="#top" class="skip-link" data-i18n="skip_to_content">تخطي إلى المحتوى الرئيسي</a>
+
+<canvas id="starParticlesCanvas" aria-hidden="true"></canvas>
+
+<!-- ================= BUTTERFLY -> X -> SPLIT OPEN INTRO SPLASH ================= -->
+<div class="intro-splash" id="introSplash" aria-label="AXIOUX Intro Animation">
+  <div class="splash-gate-left" aria-hidden="true"></div>
+  <div class="splash-gate-right" aria-hidden="true"></div>
+
+  <div class="splash-stage" id="splashStage">
+    <div class="butterfly-x-wrap">
+      <svg class="splash-morph-svg" viewBox="0 0 200 200" fill="none">
+        <defs>
+          <linearGradient id="bf-left-grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="65%" stop-color="#CBD5E1"/>
+            <stop offset="100%" stop-color="#334155"/>
+          </linearGradient>
+          <linearGradient id="bf-right-grad" x1="1" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#93C5FD"/>
+            <stop offset="55%" stop-color="#3B82F6"/>
+            <stop offset="100%" stop-color="#1D4ED8"/>
+          </linearGradient>
+          <radialGradient id="core-flare" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+            <stop offset="45%" stop-color="#60A5FA" stop-opacity="0.75"/>
+            <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+
+        <g class="bf-group">
+          <g class="bf-wing-l">
+            <path d="M100 102 C82 54, 24 28, 18 68 C14 94, 58 106, 100 105 Z" fill="url(#bf-left-grad)" opacity="0.95"/>
+            <path d="M100 106 C68 112, 28 134, 42 164 C54 184, 86 150, 100 110 Z" fill="url(#bf-left-grad)" opacity="0.82"/>
+          </g>
+          <g class="bf-wing-r">
+            <path d="M100 102 C118 54, 176 28, 182 68 C186 94, 142 106, 100 105 Z" fill="url(#bf-right-grad)" opacity="0.95"/>
+            <path d="M100 106 C132 112, 172 134, 158 164 C146 184, 114 150, 100 110 Z" fill="url(#bf-right-grad)" opacity="0.85"/>
+          </g>
+        </g>
+
+        <g class="x-emblem-group">
+          <path d="M 24 118 A 80 80 0 1 1 176 118" stroke="#60A5FA" stroke-width="2" opacity="0.8"/>
+          <path d="M28 42 C68 42, 88 84, 100 105 C88 126, 68 168, 28 168 C58 144, 74 122, 86 105 C74 88, 58 66, 28 42 Z" fill="url(#bf-left-grad)"/>
+          <path d="M172 42 C132 42, 112 84, 100 105 C112 126, 132 168, 172 168 C142 144, 126 122, 114 105 C126 88, 142 66, 172 42 Z" fill="url(#bf-right-grad)"/>
+          <circle cx="100" cy="105" r="24" fill="url(#core-flare)"/>
+          <path d="M100 76 L104 101 L129 105 L104 109 L100 134 L96 109 L71 105 L96 101 Z" fill="#FFFFFF"/>
+          <path d="M100 6 L105 32 L124 37 L105 42 L100 68 L95 42 L76 37 L95 32 Z" fill="#60A5FA"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="splash-wordmark">AXIOUX</div>
+    <div class="splash-tagline-en">THE ART OF BEING WORTHY</div>
+    <div class="splash-tagline-ar" id="splashSubAr" data-i18n="splash_sub">الجدارة مش ادّعاء، بتنبني بالشغل.</div>
+    <button type="button" class="splash-skip-btn" id="skipSplashBtn" data-i18n="btn_skip_splash">تخطي الموشن ✦</button>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="#top" class="brand-link">
+      <div class="brand-emblem-mini" aria-hidden="true">
+        <svg width="26" height="26" viewBox="0 0 100 100" fill="none">
+          <path d="M18 22 C38 22, 46 42, 50 50 C46 58, 38 78, 18 78 C32 66, 38 56, 44 50 C38 44, 32 34, 18 22 Z" fill="#F8F7F3"/>
+          <path d="M82 22 C62 22, 54 42, 50 50 C54 58, 62 78, 82 78 C68 66, 62 56, 56 50 C62 44, 68 34, 82 22 Z" fill="#3B82F6"/>
+          <path d="M50 8 L53 23 L62 26 L53 29 L50 44 L47 29 L38 26 L47 23 Z" fill="#60A5FA"/>
+        </svg>
+      </div>
+      <div class="brand-text-wrap">
+        <span class="brand-wordmark">AXIOUX</span>
+        <span class="brand-sub">THE ART OF BEING WORTHY</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" id="mainNav">
+      <a href="#projects" class="nav-link" data-i18n="nav_projects">مسار المشاريع</a>
+      <a href="#articles" class="nav-link" data-i18n="nav_articles">المقالات التقنية</a>
+      <a href="#courses" class="nav-link" data-i18n="nav_courses">الكورسات</a>
+      <a href="#team" class="nav-link" data-i18n="nav_team">الفريق</a>
+      <a href="#contact" class="nav-link" data-i18n="nav_contact">تواصل معنا</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button type="button" class="lang-btn" id="langToggleBtn" aria-label="التبديل إلى اللغة الإنجليزية">EN</button>
+      <button type="button" class="mode-btn" id="themeToggleBtn" data-i18n="btn_ivory_mode">☀️ الوضع الفاتح</button>
+      <button type="button" class="nav-toggle" id="mobileMenuBtn" aria-label="القائمة" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= SPACIOUS INTERACTIVE HERO SECTION ================= -->
+<main id="top">
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-pill">✦ AI &amp; CLOUD INNOVATION HOMEPAGE</div>
+
+      <svg class="hero-logo-svg" viewBox="0 0 760 195" role="img" aria-label="AXIOUX Logo">
+        <defs>
+          <linearGradient id="ax-blue" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#60A5FA"/>
+            <stop offset="55%" stop-color="#3B82F6"/>
+            <stop offset="100%" stop-color="#1D4ED8"/>
+          </linearGradient>
+        </defs>
+        <path d="M140 88 Q380 10 620 88" fill="none" stroke="url(#ax-blue)" stroke-width="2.2" opacity="0.85"/>
+        <path d="M380 6 L386 40 L416 46 L386 52 L380 86 L374 52 L344 46 L374 40 Z" fill="#60A5FA"/>
+        <text x="380" y="158" text-anchor="middle" fill="currentColor" font-family="'Cormorant Garamond', Georgia, serif" font-size="102" font-weight="700" letter-spacing="14">AXIOUX</text>
+        <path d="M405 106 L408 120 L420 123 L408 126 L405 140 L402 126 L390 123 L402 120 Z" fill="#3B82F6"/>
+      </svg>
+
+      <div class="hero-slogan-en">THE ART OF BEING WORTHY</div>
+
+      <h1 class="hero-title-ar" data-i18n-html="hero_title">نحوّل الأفكار التقنية إلى <span>منصات ذكية وأثر ملموس.</span></h1>
+      <p class="hero-lead" data-i18n="hero_lead">
+        فريق ومجتمع هندسي يصمّم ويطوّر حلول الذكاء الاصطناعي والمنصات السحابية بانضباط وإبداع — تصفّح مسار مشاريعنا ومقالات فريقنا أدناه.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero_cta_projects">استكشف مسار المشاريع ▾</a>
+        <a href="#articles" class="btn btn-outline" data-i18n="hero_cta_articles">مقالات الفريق</a>
+      </div>
+
+      <!-- Compact Interactive Butterfly Wings Merger -->
+      <div class="wings-mini-interactive" id="equationBox">
+        <div class="wings-stage" id="wingsStage">
+          <div class="wing-circle wing-discipline" id="wingDiscipline">
+            <span data-i18n="wing_disc">انضباط</span>
+            <small style="font-family: var(--latin); font-size: 0.68rem; color: #94A3B8;">#0F172A</small>
+          </div>
+          <div class="wing-circle wing-creativity" id="wingCreativity">
+            <span data-i18n="wing_creat">إبداع</span>
+            <small style="font-family: var(--latin); font-size: 0.68rem; color: #DBEAFE;">#3B82F6</small>
+          </div>
+          <div class="spark-center">
+            <svg width="96" height="96" viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="40" fill="none" stroke="rgba(147, 197, 253, 0.35)" stroke-width="1.2" stroke-dasharray="4 4"/>
+              <path d="M60 6 L67 49 L110 60 L67 71 L60 114 L53 71 L10 60 L53 49 Z" fill="#60A5FA"/>
+              <path d="M60 22 L64 53 L95 60 L64 67 L60 98 L56 67 L25 60 L56 53 Z" fill="#F8F7F3"/>
+            </svg>
+          </div>
+        </div>
+        <p id="equationStatusText" style="font-family: var(--arabic-head); font-weight: 800; font-size: 1rem; color: #93C5FD;">
+          انضباط + إبداع = ؟
+        </p>
+        <button type="button" class="btn btn-outline" id="mergeWingsBtn" style="padding: 8px 20px; font-size: 0.84rem;" data-i18n="btn_merge_wings">ادمج الجناحين الآن ✦</button>
+      </div>
+
+      <!-- Real Credibility Stats Strip -->
+      <div class="credibility-stats-strip" id="credibilityStats" aria-label="إحصائيات الفريق والمشاريع">
+        <div class="stat-item">
+          <span class="stat-num" id="statMembersCount">8</span>
+          <span class="stat-lbl" data-i18n="stat_members_lbl">أعضاء في الفريق الأساسي</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="statProjectsCount">3</span>
+          <span class="stat-lbl" data-i18n="stat_projects_lbl">منصات ومشاريع مصنفة</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="statArticlesCount">3</span>
+          <span class="stat-lbl" data-i18n="stat_articles_lbl">مقالات تقنية منشورة</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CURVED SCROLL PATH PROJECTS SECTION ================= -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">CURVED PROJECT PATH · مسار المشاريع</span>
+        <h2 data-i18n="proj_heading">المشاريع القادمة والحالية على مسار الابتكار</h2>
+        <p data-i18n="proj_sub">بطاقات مختصرة ومصنّفة حسب المجال التقني، موزّعة على مسار منحني تفاعلي — اضغط «اعرف المزيد» على أي مشروع لاستعراض التفاصيل والمحاكاة.</p>
+      </div>
+
+      <div class="board-toolbar">
+        <div class="filter-bar">
+          <button type="button" class="filter-btn active" data-filter="upcoming" data-i18n="filter_upcoming">مشاريع قادمة (٣)</button>
+          <button type="button" class="filter-btn" data-filter="current" data-i18n="filter_current">المشاريع الحالية</button>
+          <button type="button" class="filter-btn" data-filter="all" data-i18n="filter_all">عرض الكل</button>
+          <button type="button" class="filter-btn" data-filter="ai" data-i18n="filter_ai">ذكاء اصطناعي (AI)</button>
+          <button type="button" class="filter-btn" data-filter="cloud" data-i18n="filter_cloud">سحابة وتجارة (Cloud)</button>
+          <button type="button" class="filter-btn" data-filter="health" data-i18n="filter_health">صحة رقمية وAI</button>
+        </div>
+
+        <button type="button" class="btn btn-primary admin-only" id="toggleAddDrawerBtn" data-i18n="btn_add_proj">+ أضف مشروعاً جديداً</button>
+      </div>
+
+      <div class="add-project-drawer" id="addProjectDrawer">
+        <h3 style="font-family: var(--arabic-head); font-size: 1.25rem; margin-bottom: 14px;" data-i18n="drawer_title">إضافة مشروع جديد</h3>
+        <form id="newProjectForm">
+          <div class="drawer-grid">
+            <div class="form-field">
+              <label for="projTitle" data-i18n="lbl_proj_title">اسم المشروع</label>
+              <input id="projTitle" type="text" required placeholder="مثال: منصة التعلم الذكي...">
+            </div>
+            <div class="form-field">
+              <label for="projType" data-i18n="lbl_proj_type">حالة المشروع</label>
+              <select id="projType">
+                <option value="current" data-i18n="opt_type_current">مشروع حالي ملموس</option>
+                <option value="upcoming" data-i18n="opt_type_upcoming">مشروع قادم</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="projStatus" data-i18n="lbl_proj_status">التصنيف التقني</label>
+              <input id="projStatus" type="text" required placeholder="مثال: ذكاء اصطناعي (AI)">
+            </div>
+            <div class="form-field">
+              <label for="projTags" data-i18n="lbl_proj_tags">التقنيات (مفصولة بفاصلة)</label>
+              <input id="projTags" type="text" required placeholder="Python, WebAssembly, AI">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="projDesc" data-i18n="lbl_proj_desc">نبذة قصيرة</label>
+            <textarea id="projDesc" rows="2" required placeholder="نبذة مختصرة جداً عن المشروع..."></textarea>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button type="submit" class="btn btn-primary" data-i18n="btn_save_proj">حفظ وإضافة ✦</button>
+            <button type="button" class="btn btn-outline" id="cancelAddDrawerBtn" data-i18n="btn_cancel">إلغاء</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Curved Path Stage -->
+      <div class="projects-curved-stage">
+        <svg class="curved-path-svg" id="projectsCurveSvg" viewBox="0 0 1000 1100" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="curveGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.25"/>
+              <stop offset="20%" stop-color="#3B82F6" stop-opacity="1"/>
+              <stop offset="55%" stop-color="#38BDF8" stop-opacity="1"/>
+              <stop offset="85%" stop-color="#2DD4BF" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.25"/>
+            </linearGradient>
+          </defs>
+
+          <path class="curve-ribbon-bg" d="M 500 0 C 200 110, 200 290, 500 410 C 800 530, 800 710, 500 830 C 220 930, 350 1040, 500 1100"/>
+          <path id="mainCurvePath" class="curve-core-solid" d="M 500 0 C 200 110, 200 290, 500 410 C 800 530, 800 710, 500 830 C 220 930, 350 1040, 500 1100"/>
+          <path class="curve-glow-line" d="M 500 0 C 200 110, 200 290, 500 410 C 800 530, 800 710, 500 830 C 220 930, 350 1040, 500 1100"/>
+
+          <path class="curve-branch-line" d="M 275 195 Q 410 195 510 195"/>
+          <path class="curve-branch-line" d="M 725 595 Q 590 595 490 595"/>
+          <path class="curve-branch-line" d="M 335 955 Q 430 955 510 955"/>
+
+          <g style="color: #60A5FA;">
+            <circle class="curve-node-pulse" cx="275" cy="195" r="14" stroke="#60A5FA"/>
+            <circle class="curve-node-ring" cx="275" cy="195" r="10" stroke="#60A5FA"/>
+            <text x="275" y="168" text-anchor="middle" fill="#93C5FD" font-family="Inter, sans-serif" font-size="13" font-weight="800">01 · AI</text>
+          </g>
+
+          <g style="color: #38BDF8;">
+            <circle class="curve-node-pulse" cx="725" cy="595" r="14" stroke="#38BDF8"/>
+            <circle class="curve-node-ring" cx="725" cy="595" r="10" stroke="#38BDF8"/>
+            <text x="725" y="568" text-anchor="middle" fill="#7DD3FC" font-family="Inter, sans-serif" font-size="13" font-weight="800">02 · CLOUD</text>
+          </g>
+
+          <g style="color: #2DD4BF;">
+            <circle class="curve-node-pulse" cx="335" cy="955" r="14" stroke="#2DD4BF"/>
+            <circle class="curve-node-ring" cx="335" cy="955" r="10" stroke="#2DD4BF"/>
+            <text x="335" y="928" text-anchor="middle" fill="#5EEAD4" font-family="Inter, sans-serif" font-size="13" font-weight="800">03 · HEALTH AI</text>
+          </g>
+
+          <g id="curveTravelerStar" transform="translate(500, 0)">
+            <circle cx="0" cy="0" r="16" fill="rgba(96, 165, 250, 0.28)"/>
+            <path d="M0 -14 L3.5 -3.5 L14 0 L3.5 3.5 L0 14 L-3.5 3.5 L-14 0 L-3.5 -3.5 Z" fill="#FFFFFF"/>
+          </g>
+        </svg>
+
+        <div class="projects-curved-track" id="projectsGrid">
+          <div class="current-slot-card" id="currentProjectsPlaceholder">
+            <span class="proj-status-tag">CURRENT TANGIBLE PROJECTS · المشاريع الحالية</span>
+            <h3 data-i18n="curr_slot_title">خانة المشاريع الحالية والمنجزة</h3>
+            <p data-i18n="curr_slot_desc" style="max-width: 580px; color: var(--text-muted);">هذه المساحة مخصصة للمشاريع الملموسة التي يُنهي فريق AXIOUX بناءها وإطلاقها فعلياً. نعمل حالياً على تطوير أولى منصاتنا من قائمة المشاريع القادمة.</p>
+            <button type="button" class="btn btn-primary admin-only" id="addFirstCurrentProjBtn" data-i18n="btn_add_first_current">+ إدراج أول مشروع حالي ملموس</button>
+          </div>
+
+          <!-- Project Card 1: AI & EdTech -->
+          <article class="project-card" data-category="upcoming" data-domain="ai" data-curve-pos="1" data-proj-id="p1">
+            <span class="curve-waypoint-badge">NODE 01 · AI &amp; EDTECH</span>
+            <div class="proj-meta-top">
+              <div class="proj-cat-wrap">
+                <span class="cat-anim-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2Z"/></svg>
+                </span>
+                <span class="proj-domain-pill" data-i18n="p1_domain">تصنيف: ذكاء اصطناعي وتقنيات تعليم</span>
+              </div>
+              <span class="proj-status-tag" data-i18n="badge_upcoming">مشروع قادم</span>
+            </div>
+
+            <h3 data-i18n="p1_title">منصة التعلم والتصحيح البرمجي الذكي</h3>
+            <p class="proj-short-summary" data-i18n="p1_summary">بيئة تفاعلية لتنفيذ أكواد Python وC++ مباشرة في المتصفح مع مساعد ذكي يوجه الطالب خطوة بخطوة.</p>
+
+            <div class="proj-specs-box">
+              <div>
+                <h4 data-i18n="p1_ov_title">نظرة عامة على المشروع</h4>
+                <p data-i18n="p1_ov_desc" style="font-size:0.88rem; color:var(--text-muted);">بيئة متكاملة تتيح للمتعلمين كتابة وتنفيذ الأكواد البرمجية مباشرة داخل المتصفح عبر WebAssembly دون الحاجة لتثبيت أي بيئات عمل محلية.</p>
+              </div>
+              <div>
+                <h4 data-i18n="p1_feat_title">أهم المزايا والخصائص:</h4>
+                <ul class="proj-feature-list">
+                  <li data-i18n-html="p1_f1"><strong>محرر أكواد مدمج وسريع:</strong> يدعم لغات متعددة مع التلوين البرمجي والإكمال التلقائي.</li>
+                  <li data-i18n-html="p1_f2"><strong>نظام تصحيح وتقييم آلي:</strong> فحص مخرجات الكود مقابل حالات اختبار متنوعة (Test Cases) فورياً.</li>
+                  <li data-i18n-html="p1_f3"><strong>مساعد ذكي توجيهي (Smart AI Guide):</strong> يحلل الأخطاء المنطقية ويرشد الطالب تدريجياً للحل دون إعطائه الإجابة المباشرة.</li>
+                  <li data-i18n-html="p1_f4"><strong>مسارات تعلم متدرجة:</strong> تحديات برمجية مقسمة من المبتدئ إلى الاحترافي.</li>
+                </ul>
+              </div>
+              <div class="proj-impact-box" data-i18n-html="p1_req_box">
+                <strong>المتطلبات والتقنيات:</strong> Python Engine, WebAssembly (Wasm), Large Language Models (LLM API), Node.js, WebSockets.
+              </div>
+              <ul class="tech-stack-tags">
+                <li>Python</li>
+                <li>C++</li>
+                <li>WebAssembly</li>
+                <li>AI / LLMs</li>
+                <li>Node.js</li>
+              </ul>
+              <div class="proj-sim-wrap" onclick="event.stopPropagation()">
+                <div class="proj-sim-header">
+                  <span class="proj-sim-badge">AI MENTOR DEMO · محاكاة تفاعلية</span>
+                  <button type="button" class="btn-run-sim" data-sim-btn="p1" data-i18n="sim_p1_btn">▶ جرّب المساعد الذكي</button>
+                </div>
+                <div class="proj-sim-output" id="simOut_p1" data-i18n-html="sim_p1_out">
+                  <strong>✕ فحص الكود (Test #2):</strong> المخرج المتوقع <code>12</code>، الفعلي <code>9</code>.<br>
+                  <strong>💡 تلميح المساعد الذكي:</strong> راجع شرط باقي القسمة <code>n % 2 == 1</code> لاختيار الأعداد الزوجية فقط.
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:4px;">
+              <button type="button" class="btn-read-more open-proj-modal-btn" data-proj="p1" aria-expanded="false" data-i18n="btn_view_full_proj">اعرف المزيد ▾</button>
+              <div class="proj-ext-links" data-proj-links="p1" style="display:inline-flex; gap:8px;"></div>
+            </div>
+          </article>
+
+          <!-- Project Card 2: Cloud & E-Commerce -->
+          <article class="project-card" data-category="upcoming" data-domain="cloud" data-curve-pos="2" data-proj-id="p2">
+            <span class="curve-waypoint-badge">NODE 02 · CLOUD &amp; WEB</span>
+            <div class="proj-meta-top">
+              <div class="proj-cat-wrap">
+                <span class="cat-anim-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                </span>
+                <span class="proj-domain-pill" data-i18n="p2_domain">تصنيف: حوسبة سحابية وتجارة</span>
+              </div>
+              <span class="proj-status-tag" data-i18n="badge_upcoming">مشروع قادم</span>
+            </div>
+
+            <h3 data-i18n="p2_title">منصة دعم المتاجر والمشاريع الصغيرة</h3>
+            <p class="proj-short-summary" data-i18n="p2_summary">منصة سحابية موحدة تمنح المتاجر الناشئة واجهات بيع احترافية وتحليلات ذكية خلال دقائق.</p>
+
+            <div class="proj-specs-box">
+              <div>
+                <h4 data-i18n="p2_ov_title">فكرة وأهداف المنصة</h4>
+                <p data-i18n="p2_ov_desc" style="font-size:0.88rem; color:var(--text-muted);">دعم رواد الأعمال وأصحاب المشاريع الصغيرة بصفحات متجر احترافية دون تكاليف بناء مواقع مستقلة.</p>
+              </div>
+              <div>
+                <h4 data-i18n="p2_feat_title">المميزات الرئيسية:</h4>
+                <ul class="proj-feature-list">
+                  <li data-i18n-html="p2_f1"><strong>إنشاء متجر فوري:</strong> لوحة تحكم سهلة لرفع المنتجات وتحديد الأسعار خلال دقائق.</li>
+                  <li data-i18n-html="p2_f2"><strong>تصفح مركزي ذكي:</strong> البحث عن المنتجات والخدمات المحلية جغرافياً وحسب التصنيف.</li>
+                  <li data-i18n-html="p2_f3"><strong>باقات تسويقية ذكية:</strong> إبراز المتجر وإحصائيات تحليلية لحركة المبيعات.</li>
+                  <li data-i18n-html="p2_f4"><strong>منظومة تواصل ودفع مباشرة:</strong> ربط الزبائن بالمتجر عبر قنوات تواصل ودفع سريعة.</li>
+                </ul>
+              </div>
+              <div class="proj-impact-box" data-i18n-html="p2_impact_box">
+                <strong>الأثر الاقتصادي:</strong> تخفيض التكاليف التشغيلية على المشاريع الناشئة ومساعدتها على الانتشار الرقمي المستدام.
+              </div>
+              <ul class="tech-stack-tags">
+                <li>Full-Stack Web</li>
+                <li>Cloud Database</li>
+                <li>Payment Gateway</li>
+                <li>Analytics Engine</li>
+                <li>RESTful APIs</li>
+              </ul>
+              <div class="proj-sim-wrap" onclick="event.stopPropagation()">
+                <div class="proj-sim-header">
+                  <span class="proj-sim-badge">STOREFRONT DEMO · معاينة المتجر</span>
+                  <button type="button" class="btn-run-sim" data-sim-btn="p2" data-i18n="sim_p2_btn">🛍️ معاينة لوحة المتجر</button>
+                </div>
+                <div class="proj-sim-output" id="simOut_p2" data-i18n-html="sim_p2_out">
+                  <strong>🏪 متجر "أثر" المحلي:</strong> ٢٤ منتجاً نشطاً · <strong>+٤٢٪ نمو في الطلبات الجغرافية القريبة</strong>.
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:4px;">
+              <button type="button" class="btn-read-more open-proj-modal-btn" data-proj="p2" aria-expanded="false" data-i18n="btn_view_full_proj">اعرف المزيد ▾</button>
+              <div class="proj-ext-links" data-proj-links="p2" style="display:inline-flex; gap:8px;"></div>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Digital Health & AI -->
+          <article class="project-card" data-category="upcoming" data-domain="health" data-curve-pos="3" data-proj-id="p3">
+            <span class="curve-waypoint-badge">NODE 03 · DIGITAL HEALTH &amp; AI</span>
+            <div class="proj-meta-top">
+              <div class="proj-cat-wrap">
+                <span class="cat-anim-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </span>
+                <span class="proj-domain-pill" data-i18n="p3_domain">تصنيف: ذكاء اصطناعي وصحة رقمية</span>
+              </div>
+              <span class="proj-status-tag" data-i18n="badge_upcoming">مشروع قادم</span>
+            </div>
+
+            <h3 data-i18n="p3_title">منصة "شَـفـاء" لإدارة الرعاية والفرز الصحي الذكي</h3>
+            <p class="proj-short-summary" data-i18n="p3_summary">منظومة صحية ذكية تربط المستشفيات بفرز طبي بالذكاء الاصطناعي وسجل طبي موحد وتأهيل رقمي.</p>
+
+            <div class="proj-specs-box">
+              <div>
+                <h4 data-i18n="p3_ov_title">رؤية مشروع شَـفـاء</h4>
+                <p data-i18n="p3_ov_desc" style="font-size:0.88rem; color:var(--text-muted);">إعادة تنظيم المنظومة الطبية في أوقات الأزمات والضغط الشديد وتخفيف العبء عن الكوادر الطبية.</p>
+              </div>
+              <div>
+                <h4 data-i18n="p3_feat_title">أهم محاور المنصة:</h4>
+                <ul class="proj-feature-list">
+                  <li data-i18n-html="p3_f1"><strong>نظام الفرز الطبي الذكي (AI Clinical Triage):</strong> تحليل الأعراض صوتياً أو نصياً وتوجيه المريض لأقرب طوارئ.</li>
+                  <li data-i18n-html="p3_f2"><strong>تبويبات المستشفيات والأطباء الموحدة:</strong> استعراض المواعيد والأقسام الشاغرة وتوزيع الضغط.</li>
+                  <li data-i18n-html="p3_f3"><strong>السجل الطبي الموحد (Unified EHR):</strong> ملف صحي مشفر يتيح قراءة التاريخ المرضي فورياً.</li>
+                  <li data-i18n-html="p3_f4"><strong>التأهيل والعلاج الطبيعي الرقمي:</strong> برامج تمارين منزلية مخصصة للمصابين دون عناء التنقل.</li>
+                  <li data-i18n-html="p3_f5"><strong>لوحة إدارة الأزمات وتنبيهات SMS:</strong> توجيه الحالات للمشافي الأقل ازدحاماً ودعم العمل عند انقطاع الإنترنت.</li>
+                  <li data-i18n-html="p3_f6"><strong>مساعد صوتي باللهجة المحلية:</strong> لتسهيل الاستخدام لكبار السن والمصابين.</li>
+                </ul>
+              </div>
+              <div class="proj-impact-box" data-i18n-html="p3_impact_box">
+                <strong>الأثر الحيوي:</strong> تقليل التدافع، التوزيع العادل للموارد الطبية، وتوثيق البيانات الصحية لإنقاذ الأرواح.
+              </div>
+              <ul class="tech-stack-tags">
+                <li>AI NLP &amp; Dialect Models</li>
+                <li>Distributed Databases</li>
+                <li>HIPAA Security</li>
+                <li>Telehealth WebRTC</li>
+                <li>SMS Gateway API</li>
+              </ul>
+              <div class="proj-sim-wrap" onclick="event.stopPropagation()">
+                <div class="proj-sim-header">
+                  <span class="proj-sim-badge">AI CLINICAL TRIAGE DEMO · محاكاة الفرز</span>
+                  <button type="button" class="btn-run-sim" data-sim-btn="p3" data-i18n="sim_p3_btn">🩺 جرّب محاكاة الفرز الطبي</button>
+                </div>
+                <div class="proj-sim-output" id="simOut_p3" data-i18n-html="sim_p3_out">
+                  <strong>🎙️ إدخال صوتي باللهجة المحلية:</strong> «والدي عنده ضيقة نفس شديدة وألم بالصدر».<br>
+                  <strong>🚨 قرار الفرز الذكي:</strong> أولوية قصوى (<strong>Code Red</strong>) · توجيه لأقرب طوارئ متاحة + تنبيه <strong>SMS</strong> فوري.
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:4px;">
+              <button type="button" class="btn-read-more open-proj-modal-btn" data-proj="p3" aria-expanded="false" data-i18n="btn_view_full_proj">اعرف المزيد ▾</button>
+              <div class="proj-ext-links" data-proj-links="p3" style="display:inline-flex; gap:8px;"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TECH ARTICLES & INSIGHTS SECTION ================= -->
+  <section id="articles">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">AXIOUX TECH JOURNAL · مدونة الفريق</span>
+        <h2 data-i18n="art_heading">مقالات وتجارب فريق AXIOUX</h2>
+        <p data-i18n="art_sub">مقالات تقنية يكتبها أعضاء الفريق حول هندسة الذكاء الاصطناعي، المعمارية البرمجية، وأساسيات علوم الحاسوب.</p>
+      </div>
+
+      <div class="board-toolbar">
+        <div class="filter-bar">
+          <button type="button" class="filter-btn art-filter-btn active" data-art-filter="all" data-i18n="art_filter_all">كل المقالات</button>
+          <button type="button" class="filter-btn art-filter-btn" data-art-filter="ai" data-i18n="art_filter_ai">ذكاء اصطناعي ومنطق</button>
+          <button type="button" class="filter-btn art-filter-btn" data-art-filter="systems" data-i18n="art_filter_sys">معمارية وأنظمة</button>
+          <button type="button" class="filter-btn art-filter-btn" data-art-filter="culture" data-i18n="art_filter_cult">علوم الحاسوب</button>
+        </div>
+
+        <button type="button" class="btn btn-primary admin-only" id="toggleAddArticleBtn" data-i18n="btn_add_article">+ نشر مقال تقني جديد</button>
+      </div>
+
+      <div class="add-project-drawer" id="addArticleDrawer">
+        <h3 style="font-family: var(--arabic-head); font-size: 1.25rem; margin-bottom: 14px;" data-i18n="art_drawer_title">إضافة مقال تقني جديد</h3>
+        <form id="newArticleForm">
+          <div class="drawer-grid">
+            <div class="form-field">
+              <label for="artTitle" data-i18n="lbl_art_title">عنوان المقال</label>
+              <input id="artTitle" type="text" required placeholder="عنوان المقال...">
+            </div>
+            <div class="form-field">
+              <label for="artCategory" data-i18n="lbl_art_cat">تصنيف المقال</label>
+              <select id="artCategory">
+                <option value="ai" data-i18n="opt_art_ai">ذكاء اصطناعي ومنطق</option>
+                <option value="systems" data-i18n="opt_art_sys">معمارية وأنظمة</option>
+                <option value="culture" data-i18n="opt_art_cult">علوم الحاسوب</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="artAuthor" data-i18n="lbl_art_author">اسم الكاتب</label>
+              <input id="artAuthor" type="text" required placeholder="اسم العضو...">
+            </div>
+            <div class="form-field">
+              <label for="artReadTime" data-i18n="lbl_art_time">وقت القراءة</label>
+              <input id="artReadTime" type="text" required placeholder="٤ دقائق قراءة">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="artSummary" data-i18n="lbl_art_summary">نبذة مختصرة</label>
+            <textarea id="artSummary" rows="2" required placeholder="ملخص قصير..."></textarea>
+          </div>
+          <div class="form-field">
+            <label for="artBody" data-i18n="lbl_art_body">النص الكامل للمقال</label>
+            <textarea id="artBody" rows="4" required placeholder="النص الكامل..."></textarea>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button type="submit" class="btn btn-primary" data-i18n="btn_save_article">نشر المقال ✦</button>
+            <button type="button" class="btn btn-outline" id="cancelAddArticleBtn" data-i18n="btn_cancel">إلغاء</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="articles-grid" id="articlesGrid">
+        <!-- Article 1: Jenan -->
+        <article class="article-card" data-art-cat="ai">
+          <div>
+            <div class="article-meta">
+              <span class="article-cat-badge" data-i18n="art1_badge">هندسة الذكاء الاصطناعي والمنطق</span>
+              <span class="article-read-time" data-i18n="art1_time">بقلم: جنان · ٤ دقائق</span>
+            </div>
+            <h3 data-i18n="art1_title">من برمجة إلى تفكير هندسي: المنطق الرياضي والـ Problem Solving</h3>
+            <p data-i18n="art1_excerpt">لماذا الـ AI ليس سحراً بل رياضيات ومنطق، وكيف يشكّل التحليل المنطقي 80% من بناء أي نظام ذكي قبل كتابة الكود.</p>
+            <div class="article-inline-body" data-art-drawer="a1"></div>
+          </div>
+          <div class="article-author-row">
+            <div class="article-author-info">
+              <span data-i18n="art1_author">جنان (Jenan) · مهندسة ذكاء اصطناعي</span>
+              <span>AI Logic · Problem Solving</span>
+            </div>
+            <button type="button" class="btn-read-more open-art-modal-btn" data-art="a1" aria-expanded="false" data-i18n="btn_read_article">اعرف المزيد ▾</button>
+          </div>
+        </article>
+
+        <!-- Article 2: Nourhan Talal Hassouna -->
+        <article class="article-card" data-art-cat="systems">
+          <div>
+            <div class="article-meta">
+              <span class="article-cat-badge" data-i18n="art2_badge">الرؤية التقنية وهندسة الأنظمة</span>
+              <span class="article-read-time" data-i18n="art2_time">بقلم: نورهان طلال حسونة (CTO) · ٣ دقائق</span>
+            </div>
+            <h3 data-i18n="art2_title">بناء أنظمة ذكية تثبت جدارتها عبر الزمن: الرؤية التقنية في AXIOUX</h3>
+            <p data-i18n="art2_excerpt">كيف نحول التحديات المعقدة إلى منتجات رقمية قابلة للتوسع وعالية الموثوقية تعكس فلسفة The Art of Being Worthy.</p>
+            <div class="article-inline-body" data-art-drawer="a2"></div>
+          </div>
+          <div class="article-author-row">
+            <div class="article-author-info">
+              <span data-i18n="art2_author">نورهان طلال حسونة · CTO &amp; AI Engineer</span>
+              <span>System Architecture · Code Quality</span>
+            </div>
+            <button type="button" class="btn-read-more open-art-modal-btn" data-art="a2" aria-expanded="false" data-i18n="btn_read_article">اعرف المزيد ▾</button>
+          </div>
+        </article>
+
+        <!-- Article 3: Abdelrahman -->
+        <article class="article-card" data-art-cat="culture">
+          <div>
+            <div class="article-meta">
+              <span class="article-cat-badge" data-i18n="art3_badge">علوم الحاسوب والتفكير الحاسوبي</span>
+              <span class="article-read-time" data-i18n="art3_time">بقلم: عبد الرحمن · ٤ دقائق</span>
+            </div>
+            <h3 data-i18n="art3_title">لماذا يجب أن نتعلم علوم الحاسوب قبل التعمق في لغات البرمجة؟</h3>
+            <p data-i18n="art3_excerpt">المبرمج المتميز ليس من يعرف أكبر عدد من اللغات، بل من يستطيع التفكير بطريقة صحيحة وتحويل المشكلات إلى حلول فعّالة.</p>
+            <div class="article-inline-body" data-art-drawer="a3"></div>
+          </div>
+          <div class="article-author-row">
+            <div class="article-author-info">
+              <span data-i18n="art3_author">عبد الرحمن · مهندس برمجيات وواجهات</span>
+              <span>Computer Science · C++ &amp; Python</span>
+            </div>
+            <button type="button" class="btn-read-more open-art-modal-btn" data-art="a3" aria-expanded="false" data-i18n="btn_read_article">اعرف المزيد ▾</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COURSES & TRAINING SECTION ================= -->
+  <section id="courses">
+    <div class="container">
+      <div id="coursesDynamicContainer">
+        <div class="coming-soon-banner">
+          <div style="max-width: 620px;">
+            <span class="eyebrow" data-i18n="courses_soon_badge">COURSES &amp; TRAINING · قريباً</span>
+            <h3 style="font-family: var(--arabic-head); font-size: 1.45rem; margin: 4px 0 8px;" data-i18n="courses_soon_title">المسارات التدريبية التطبيقية — قريباً</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;" data-i18n="courses_soon_desc">نعدّ حالياً مسارات تدريبية عملية مبنية على مشاريعنا الهندسية. سجّل اهتمامك المسبق أو انضم كمدرب أو شريك معنا.</p>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <button type="button" class="btn btn-primary preselect-contact-btn" data-inquiry="partnership" data-i18n="btn_course_interest">سجّل اهتمامك أو اطلب شراكة</button>
+            <button type="button" class="btn btn-outline preselect-contact-btn" data-inquiry="trainer" data-i18n="btn_become_trainer">انضم كمدرب معنا</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEAM & LEADERSHIP ================= -->
+  <section id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">LEADERSHIP &amp; CORE TEAM</span>
+        <h2 data-i18n="team_heading">قيادة وفريق AXIOUX (٨ أعضاء)</h2>
+        <p data-i18n="team_sub">اضغط على بطاقة أي عضو لينزلق الأفاتار جانباً وتظهر لك نبذته، مهاراته، ومشاريعه في نفس المكان.</p>
+      </div>
+
+      <div class="leadership-row">
+        <div class="leader-card team-interactive-card" data-member-id="qassam" tabindex="0" role="button" aria-expanded="false">
+          <div class="leader-avatar" data-avatar-box="qassam">QH</div>
+          <div class="member-main-wrap" style="flex:1;">
+            <span class="leader-role">FOUNDER / DIRECTOR · AI ENGINEER</span>
+            <h3>Qassam Saleh Hamdan</h3>
+            <p data-i18n="leader_qassam_bio">مؤسس ومدير AXIOUX — يقود الرؤية، هندسة الذكاء الاصطناعي، وتحويل الأفكار إلى مسار عمل واضح.</p>
+            <span class="member-click-hint" data-i18n="member_view_btn">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="qassam"></div>
+          </div>
+        </div>
+
+        <div class="leader-card team-interactive-card" data-member-id="nourhan" tabindex="0" role="button" aria-expanded="false">
+          <div class="leader-avatar" data-avatar-box="nourhan">NTH</div>
+          <div class="member-main-wrap" style="flex:1;">
+            <span class="leader-role">TECHNICAL DIRECTOR / CTO · AI ENGINEER</span>
+            <h3>Nourhan Talal Hassouna</h3>
+            <p data-i18n="leader_nourhan_bio">مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) — تحوّل التحديات المعقدة إلى منتجات رقمية ذكية قابلة للتوسع وعالية الموثوقية.</p>
+            <span class="member-click-hint" data-i18n="member_view_btn">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="nourhan"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="core-team-grid" id="coreTeamGrid">
+        <div class="member-card team-interactive-card" data-member-id="qassam" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="qassam">QH</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_qassam">قسّام صالح حمدان</strong>
+            <span>Founder &amp; AI Lead</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="qassam"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="nourhan" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="nourhan">NTH</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_nourhan">نورهان طلال حسونة</strong>
+            <span>CTO &amp; Architecture</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="nourhan"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="abdulaziz" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="abdulaziz">AZ</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_abdulaziz">عبد العزيز</strong>
+            <span>Operations &amp; Backend</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="abdulaziz"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="batool" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="batool">BT</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_batool">بتول</strong>
+            <span>AI &amp; Smart Systems</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="batool"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="lama" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="lama">LM</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_lama">لمى</strong>
+            <span>AI &amp; Data Analysis</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="lama"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="jinan" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="jinan">JN</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_jinan">جنان (Jenan)</strong>
+            <span>AI Engineering &amp; Logic</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="jinan"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="saleh" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="saleh">SL</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_saleh">صالح</strong>
+            <span>Cyber Security &amp; Backend</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="saleh"></div>
+          </div>
+        </div>
+        <div class="member-card team-interactive-card" data-member-id="abdelrahman" tabindex="0" role="button" aria-expanded="false">
+          <div class="member-avatar-circle" data-avatar-box="abdelrahman">AR</div>
+          <div class="member-main-wrap">
+            <strong data-i18n="m_abdelrahman">عبد الرحمن</strong>
+            <span>Frontend &amp; Web UI</span>
+            <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+            <div class="member-inline-drawer" data-member-drawer="abdelrahman"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 54px;">
+        <span class="eyebrow">HOW TO COLLABORATE</span>
+        <h3 style="font-family: var(--arabic-head); font-size: 1.35rem; margin-bottom: 10px;" data-i18n="join_heading">كيف تنضم إلينا أو تبدأ مشروعك معنا؟</h3>
+        <div class="how-to-join-grid">
+          <div class="join-step-card">
+            <span class="join-step-num">01 / CONNECT</span>
+            <h4 style="font-family:var(--arabic-head); margin-bottom:6px;" data-i18n="join_s1_t">أرسل طلبك أو فكرتك</h4>
+            <p style="font-size:0.88rem; color:var(--text-muted);" data-i18n="join_s1_d">اختر الهدف المناسب في نموذج التواصل أدناه (مشروع جديد، طرح فكرة، أو انضمام للتدريب).</p>
+          </div>
+          <div class="join-step-card">
+            <span class="join-step-num">02 / ALIGN</span>
+            <h4 style="font-family:var(--arabic-head); margin-bottom:6px;" data-i18n="join_s2_t">جلسة تقييم وتخطيط</h4>
+            <p style="font-size:0.88rem; color:var(--text-muted);" data-i18n="join_s2_d">نراجع المتطلبات التقنية مع قيادة الفريق ونحدد نطاق العمل والجدول الزمني بوضوح.</p>
+          </div>
+          <div class="join-step-card">
+            <span class="join-step-num">03 / BUILD</span>
+            <h4 style="font-family:var(--arabic-head); margin-bottom:6px;" data-i18n="join_s3_t">تنفيذ وتوثيق مشترك</h4>
+            <p style="font-size:0.88rem; color:var(--text-muted);" data-i18n="join_s3_d">نبدأ البناء الفعلي ومراجعة الكود خطوة بخطوة حتى إطلاق المخرج النهائي.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h2 data-i18n="contact_heading">تواصل معنا: لتنفيذ مشروع، طرح فكرة، أو شراكة تقنية</h2>
+        <p data-i18n="contact_sub">أرسل لنا تفاصيل مشروعك أو مقترح الشراكة وسيتواصل معك فريق AXIOUX لترتيب خطوة البداية.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="surface-card">
+          <form id="contactForm" novalidate>
+            <input type="checkbox" name="botcheck" id="botcheck" style="display:none !important;" tabindex="-1" autocomplete="off">
+
+            <div class="form-field">
+              <label for="senderName" data-i18n="lbl_c_name">الاسم الكامل أو اسم الجهة / المركز</label>
+              <input id="senderName" name="name" type="text" required minlength="2" placeholder="مثال: أ. محمد / مركز تدريب ...">
+            </div>
+            <div class="form-field">
+              <label for="senderContact" data-i18n="lbl_c_email">البريد الإلكتروني أو رقم التواصل</label>
+              <input id="senderContact" name="contact" type="text" required minlength="5" placeholder="name@example.com / +97059...">
+            </div>
+            <div class="form-field">
+              <label for="inquiryType" data-i18n="lbl_c_type">الهدف من التواصل</label>
+              <select id="inquiryType" name="inquiry_type">
+                <option value="project" data-i18n="opt_c_proj">طلب تنفيذ مشروع تقني</option>
+                <option value="partnership" data-i18n="opt_c_part">شراكة في قسم الكورسات والتدريب</option>
+                <option value="trainer" data-i18n="opt_c_trainer">الانضمام كمدرب / مدربة في قسم الكورسات</option>
+                <option value="idea" data-i18n="opt_c_idea">اقتراح فكرة مشروع للمجتمع</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="senderMsg" data-i18n="lbl_c_msg">التفاصيل</label>
+              <textarea id="senderMsg" name="message" rows="4" required minlength="10" placeholder="اكتب لنا تفاصيل المشروع، أو شكل الشراكة المقترح..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="contactSubmitBtn" style="width: 100%;" data-i18n="btn_send_msg">إرسال الرسالة ✦</button>
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 8px; text-align: center;" data-i18n="privacy_note">نستخدم بياناتك فقط للرد عليك.</p>
+            <div class="toast-msg" id="contactToast" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <div class="surface-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <span class="eyebrow">DIRECT CHANNELS</span>
+            <h3 style="font-family: var(--arabic-head); font-size: 1.35rem; margin-bottom: 14px;" data-i18n="c_side_title">مجتمع يبني ويوثّق كل خطوة</h3>
+            <p style="color: var(--text-muted); margin-bottom: 20px;" data-i18n-html="c_side_desc">
+              في <strong>AXIOUX</strong> نرحب بكل فكرة جادة، مشروع يخدم المجتمع، أو شراكة تدريبية تفتح آفاقاً جديدة للشباب.
+            </p>
+            <div style="display: grid; gap: 12px; font-size: 0.95rem;">
+              <div data-i18n-html="c_loc"><strong>المقر:</strong> غزة، فلسطين</div>
+              <div data-i18n-html="c_focus"><strong>مجالات العمل:</strong> تطوير المشاريع التقنية، الذكاء الاصطناعي، والمنصات السحابية</div>
+              <div><strong data-i18n="c_motto_lbl">شعار الهوية:</strong> <span style="font-family: var(--latin); color: var(--blue-light);">THE ART OF BEING WORTHY</span></div>
+            </div>
+
+            <div id="directChannelsWrap" style="margin-top: 18px; display: none;">
+              <div class="social-links-row" id="directSocialRow"></div>
+              <div id="waCommunityWrap" style="margin-top: 12px;"></div>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px; padding: 18px; border-radius: 14px; background: rgba(6, 10, 20, 0.75); border: 1px solid var(--border-subtle); color: #F8F7F3; text-align: center;">
+            <div style="font-family: var(--serif); font-size: 1.5rem; letter-spacing: 0.2em;">AXIOUX</div>
+            <div style="font-size: 0.82rem; color: #93C5FD; margin-top: 4px;">IDEAS · DISCIPLINE · CREATIVITY · REAL IMPACT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong style="color: #FFFFFF; font-family: var(--serif); letter-spacing: 0.16em; font-size: 1.15rem;">AXIOUX</strong>
+      <span style="margin-inline-start: 10px;" data-i18n="footer_tagline">— الجدارة مش ادّعاء، بتنبني بالشغل.</span>
+    </div>
+    <div class="social-links-row" id="footerSocialRow" style="margin-top: 0;"></div>
+    <div style="font-family: var(--latin); font-size: 0.82rem;">
+      © 2026 AXIOUX Community · Gaza, Palestine
+    </div>
+  </div>
+</footer>
+
+<div class="reader-modal" id="detailReaderModal" role="dialog" aria-modal="true" aria-label="Detail Reader">
+  <div class="reader-box">
+    <button type="button" class="reader-close" id="closeReaderModalBtn" data-i18n="btn_close_modal">✕ إغلاق</button>
+    <div class="reader-body" id="readerModalBody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const SITE_CONFIG = {
+    SITE_URL: "",
+    WHATSAPP_NUMBER: "",
+    WHATSAPP_COMMUNITY_LINK: "",
+    INSTAGRAM_URL: "",
+    TELEGRAM_URL: "",
+    LINKEDIN_URL: "",
+    GITHUB_URL: "",
+    CONTACT_EMAIL: "",
+    WEB3FORMS_ACCESS_KEY: "",
+    CLOUDFLARE_ANALYTICS_TOKEN: "",
+    PROJECT_LINKS: {
+      p1: { demo: "", github: "" },
+      p2: { demo: "", github: "" },
+      p3: { demo: "", github: "" }
+    },
+    TEAM_LINKS: {
+      qassam:      { photo: "", linkedin: "", github: "" },
+      nourhan:     { photo: "", linkedin: "", github: "" },
+      abdulaziz:   { photo: "", linkedin: "", github: "" },
+      batool:      { photo: "", linkedin: "", github: "" },
+      lama:        { photo: "", linkedin: "", github: "" },
+      jinan:       { photo: "", linkedin: "", github: "" },
+      saleh:       { photo: "", linkedin: "", github: "" },
+      abdelrahman: { photo: "", linkedin: "", github: "" }
+    },
+    COURSES: []
+  };
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const isAdmin = urlParams.get('admin') === '1';
+  if (isAdmin) {
+    document.body.classList.add('is-admin');
+  }
+
+  if (SITE_CONFIG.CLOUDFLARE_ANALYTICS_TOKEN) {
+    const cfScript = document.createElement('script');
+    cfScript.defer = true;
+    cfScript.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    cfScript.setAttribute('data-cf-beacon', JSON.stringify({ token: SITE_CONFIG.CLOUDFLARE_ANALYTICS_TOKEN }));
+    document.head.appendChild(cfScript);
+  }
+
+  if (SITE_CONFIG.SITE_URL) {
+    const base = SITE_CONFIG.SITE_URL.replace(/\/+$/, '');
+    const canEl = document.getElementById('canonicalLink');
+    const ogUrlEl = document.getElementById('ogUrl');
+    const ogImgEl = document.getElementById('ogImage');
+    const twImgEl = document.getElementById('twImage');
+    if (canEl) canEl.href = base + '/';
+    if (ogUrlEl) ogUrlEl.content = base + '/';
+    if (ogImgEl) ogImgEl.content = base + '/assets/og.png';
+    if (twImgEl) twImgEl.content = base + '/assets/og.png';
+  }
+
+  // 0. INTERACTIVE STAR / PARTICLE BACKGROUND ENGINE
+  const canvas = document.getElementById('starParticlesCanvas');
+  const ctx = canvas ? canvas.getContext('2d') : null;
+  let particles = [];
+  let animFrameId = null;
+  const mouse = { x: -9999, y: -9999, radius: 165 };
+  const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function initParticles() {
+    if (!canvas || !ctx) return;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const count = window.innerWidth < 600 ? 38 : 78;
+    particles = [];
+    const colors = ['#60A5FA', '#3B82F6', '#38BDF8', '#F8F7F3'];
+    for (let i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.42,
+        vy: (Math.random() - 0.5) * 0.42,
+        r: Math.random() * 2.1 + 0.8,
+        alpha: Math.random() * 0.65 + 0.25,
+        color: colors[i % colors.length]
+      });
+    }
+  }
+
+  function drawParticles() {
+    if (!canvas || !ctx) return;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const isLight = document.body.classList.contains('ivory-mode');
+
+    for (let i = 0; i < particles.length; i++) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0) p.x = canvas.width;
+      if (p.x > canvas.width) p.x = 0;
+      if (p.y < 0) p.y = canvas.height;
+      if (p.y > canvas.height) p.y = 0;
+
+      const dx = mouse.x - p.x;
+      const dy = mouse.y - p.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < mouse.radius && dist > 1) {
+        const force = (mouse.radius - dist) / mouse.radius;
+        p.x -= (dx / dist) * force * 1.15;
+        p.y -= (dy / dist) * force * 1.15;
+      }
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = isLight ? 'rgba(37, 99, 235, 0.45)' : p.color;
+      ctx.globalAlpha = p.alpha;
+      ctx.fill();
+
+      for (let j = i + 1; j < particles.length; j++) {
+        const p2 = particles[j];
+        const ldx = p.x - p2.x;
+        const ldy = p.y - p2.y;
+        const ldist = Math.sqrt(ldx * ldx + ldy * ldy);
+        if (ldist < 115) {
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.strokeStyle = isLight
+            ? 'rgba(37, 99, 235, ' + (0.14 * (1 - ldist / 115)) + ')'
+            : 'rgba(96, 165, 250, ' + (0.16 * (1 - ldist / 115)) + ')';
+          ctx.lineWidth = 0.8;
+          ctx.stroke();
+        }
+      }
+
+      if (dist < mouse.radius) {
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+        ctx.lineTo(mouse.x, mouse.y);
+        ctx.strokeStyle = isLight
+          ? 'rgba(37, 99, 235, ' + (0.28 * (1 - dist / mouse.radius)) + ')'
+          : 'rgba(96, 165, 250, ' + (0.35 * (1 - dist / mouse.radius)) + ')';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+    if (!prefersReducedMotion) {
+      animFrameId = requestAnimationFrame(drawParticles);
+    }
+  }
+
+  window.addEventListener('mousemove', (e) => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  });
+  window.addEventListener('mouseleave', () => {
+    mouse.x = -9999;
+    mouse.y = -9999;
+  });
+  window.addEventListener('resize', () => {
+    initParticles();
+    if (prefersReducedMotion) drawParticles();
+  });
+
+  initParticles();
+  if (prefersReducedMotion) {
+    drawParticles();
+  } else {
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    animFrameId = requestAnimationFrame(drawParticles);
+  }
+
+  // 1. SPLASH CONTROLLER
+  const introSplash = document.getElementById('introSplash');
+  const skipSplashBtn = document.getElementById('skipSplashBtn');
+  let splashOpenTimer = null;
+  let splashHideTimer = null;
+
+  function dismissSplashImmediately() {
+    if (!introSplash) return;
+    if (splashOpenTimer) clearTimeout(splashOpenTimer);
+    if (splashHideTimer) clearTimeout(splashHideTimer);
+    introSplash.classList.add('opening', 'hidden');
+    try { sessionStorage.setItem('axioux_splash_shown', '1'); } catch (e) {}
+  }
+
+  let splashAlreadyShown = false;
+  try {
+    splashAlreadyShown = sessionStorage.getItem('axioux_splash_shown') === '1';
+  } catch (e) {}
+
+  if (prefersReducedMotion || splashAlreadyShown) {
+    dismissSplashImmediately();
+  } else if (introSplash) {
+    try { sessionStorage.setItem('axioux_splash_shown', '1'); } catch (e) {}
+    splashOpenTimer = setTimeout(() => { introSplash.classList.add('opening'); }, 2550);
+    splashHideTimer = setTimeout(() => { introSplash.classList.add('hidden'); }, 3450);
+    introSplash.addEventListener('click', dismissSplashImmediately);
+    if (skipSplashBtn) {
+      skipSplashBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dismissSplashImmediately();
+      });
+    }
+  }
+
+  // 2. SCROLL-DRIVEN CURVED PATH TRAVELER & INTERSECTION OBSERVER
+  const mainCurvePath = document.getElementById('mainCurvePath');
+  const curveTravelerStar = document.getElementById('curveTravelerStar');
+  const projectsSectionEl = document.getElementById('projects');
+
+  function updateCurveTravelerOnScroll() {
+    if (!mainCurvePath || !curveTravelerStar || !projectsSectionEl) return;
+    try {
+      const rect = projectsSectionEl.getBoundingClientRect();
+      const winH = window.innerHeight || 800;
+      const rawProgress = (winH * 0.65 - rect.top) / Math.max(rect.height, 1);
+      const progress = Math.max(0.02, Math.min(0.98, rawProgress));
+      const totalLen = mainCurvePath.getTotalLength();
+      const pt = mainCurvePath.getPointAtLength(progress * totalLen);
+      curveTravelerStar.setAttribute('transform', 'translate(' + pt.x.toFixed(1) + ', ' + pt.y.toFixed(1) + ')');
+    } catch (e) {}
+  }
+
+  window.addEventListener('scroll', updateCurveTravelerOnScroll, { passive: true });
+  setTimeout(updateCurveTravelerOnScroll, 150);
+
+  const projectCardsAll = document.querySelectorAll('.project-card');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, { threshold: 0.14 });
+    projectCardsAll.forEach(card => io.observe(card));
+  } else {
+    projectCardsAll.forEach(card => card.classList.add('in-view'));
+  }
+
+  // 3. BILINGUAL DICTIONARY (AR / EN)
+  let currentLang = 'ar';
+
+  const i18n = {
+    ar: {
+      page_title: 'AXIOUX — The Art of Being Worthy | الصفحة الرئيسية',
+      meta_desc: 'AXIOUX مجتمع وفريق تقني يبني منصات الذكاء الاصطناعي والأنظمة السحابية، ويوثّق المعرفة الهندسية — لأن الجدارة بتنبني بالشغل.',
+      skip_to_content: 'تخطي إلى المحتوى الرئيسي',
+      btn_skip_splash: 'تخطي الموشن ✦',
+      splash_sub: 'الجدارة مش ادّعاء، بتنبني بالشغل.',
+      nav_projects: 'مسار المشاريع',
+      nav_articles: 'المقالات التقنية',
+      nav_courses: 'الكورسات',
+      nav_team: 'الفريق',
+      nav_contact: 'تواصل معنا',
+      btn_night_mode: '🌙 الوضع الداكن',
+      btn_ivory_mode: '☀️ الوضع الفاتح',
+      aria_lang_btn: 'التبديل إلى اللغة الإنجليزية',
+      aria_theme_btn: 'تبديل وضع الإضاءة',
+      aria_menu_btn: 'فتح أو إغلاق القائمة الرئيسية',
+      hero_title: 'نحوّل الأفكار التقنية إلى <span>منصات ذكية وأثر ملموس.</span>',
+      hero_lead: 'فريق ومجتمع هندسي يصمّم ويطوّر حلول الذكاء الاصطناعي والمنصات السحابية بانضباط وإبداع — تصفّح مسار مشاريعنا ومقالات فريقنا أدناه.',
+      hero_cta_projects: 'استكشف مسار المشاريع ▾',
+      hero_cta_articles: 'مقالات الفريق',
+      wing_disc: 'انضباط',
+      wing_creat: 'إبداع',
+      eq_unmerged: 'انضباط + إبداع = ؟',
+      eq_merged: '✦ انضباط + إبداع = أثر حقيقي (AXIOUX) ✦',
+      btn_merge_wings: 'ادمج الجناحين الآن ✦',
+      btn_unmerge_wings: 'إعادة فصل الجناحين',
+      stat_members_lbl: 'أعضاء في الفريق الأساسي',
+      stat_projects_lbl: 'منصات ومشاريع مصنفة',
+      stat_articles_lbl: 'مقالات تقنية منشورة',
+      proj_heading: 'المشاريع القادمة والحالية على مسار الابتكار',
+      proj_sub: 'بطاقات مختصرة ومصنّفة حسب المجال التقني، موزّعة على مسار منحني تفاعلي — اضغط «اعرف المزيد» على أي مشروع لاستعراض التفاصيل والمحاكاة.',
+      filter_upcoming: 'مشاريع قادمة (٣)',
+      filter_current: 'المشاريع الحالية',
+      filter_all: 'عرض الكل',
+      filter_ai: 'ذكاء اصطناعي (AI)',
+      filter_cloud: 'سحابة وتجارة (Cloud)',
+      filter_health: 'صحة رقمية وAI',
+      badge_upcoming: 'مشروع قادم',
+      badge_current: 'مشروع حالي ملموس',
+      curr_slot_title: 'خانة المشاريع الحالية والمنجزة',
+      curr_slot_desc: 'هذه المساحة مخصصة للمشاريع الملموسة التي يُنهي فريق AXIOUX بناءها وإطلاقها فعلياً. نعمل حالياً على تطوير أولى منصاتنا من قائمة المشاريع القادمة.',
+      btn_add_first_current: '+ إدراج أول مشروع حالي ملموس',
+      btn_add_proj: '+ أضف مشروعاً جديداً',
+      drawer_title: 'إضافة مشروع جديد',
+      lbl_proj_title: 'اسم المشروع',
+      lbl_proj_type: 'حالة المشروع',
+      opt_type_current: 'مشروع حالي ملموس',
+      opt_type_upcoming: 'مشروع قادم',
+      lbl_proj_status: 'التصنيف التقني',
+      lbl_proj_tags: 'التقنيات (مفصولة بفاصلة)',
+      lbl_proj_desc: 'نبذة قصيرة',
+      btn_save_proj: 'حفظ وإضافة ✦',
+      btn_cancel: 'إلغاء',
+      p1_domain: 'تصنيف: ذكاء اصطناعي وتقنيات تعليم',
+      p1_title: 'منصة التعلم والتصحيح البرمجي الذكي',
+      p1_summary: 'بيئة تفاعلية لتنفيذ أكواد Python وC++ مباشرة في المتصفح مع مساعد ذكي يوجه الطالب خطوة بخطوة.',
+      p1_ov_title: 'نظرة عامة على المشروع',
+      p1_ov_desc: 'بيئة متكاملة تتيح للمتعلمين كتابة وتنفيذ الأكواد البرمجية مباشرة داخل المتصفح عبر WebAssembly دون الحاجة لتثبيت أي بيئات عمل محلية.',
+      p1_feat_title: 'أهم المزايا والخصائص:',
+      p1_f1: '<strong>محرر أكواد مدمج وسريع:</strong> يدعم لغات متعددة مع التلوين البرمجي والإكمال التلقائي.',
+      p1_f2: '<strong>نظام تصحيح وتقييم آلي:</strong> فحص مخرجات الكود مقابل حالات اختبار متنوعة (Test Cases) فورياً.',
+      p1_f3: '<strong>مساعد ذكي توجيهي (Smart AI Guide):</strong> يحلل الأخطاء المنطقية ويرشد الطالب تدريجياً للحل دون إعطائه الإجابة المباشرة.',
+      p1_f4: '<strong>مسارات تعلم متدرجة:</strong> تحديات برمجية مقسمة من المبتدئ إلى الاحترافي.',
+      p1_req_box: '<strong>المتطلبات والتقنيات:</strong> Python Engine, WebAssembly (Wasm), Large Language Models (LLM API), Node.js, WebSockets.',
+      sim_p1_btn: '▶ جرّب المساعد الذكي',
+      sim_p1_out: '<strong>✕ فحص الكود (Test #2):</strong> المخرج المتوقع <code>12</code>، الفعلي <code>9</code>.<br><strong>💡 تلميح المساعد الذكي:</strong> راجع شرط باقي القسمة <code>n % 2 == 1</code> لاختيار الأعداد الزوجية فقط.',
+      p2_domain: 'تصنيف: حوسبة سحابية وتجارة',
+      p2_title: 'منصة دعم المتاجر والمشاريع الصغيرة',
+      p2_summary: 'منصة سحابية موحدة تمنح المتاجر الناشئة واجهات بيع احترافية وتحليلات ذكية خلال دقائق.',
+      p2_ov_title: 'فكرة وأهداف المنصة',
+      p2_ov_desc: 'دعم رواد الأعمال وأصحاب المشاريع الصغيرة بصفحات متجر احترافية دون تكاليف بناء مواقع مستقلة.',
+      p2_feat_title: 'المميزات الرئيسية:',
+      p2_f1: '<strong>إنشاء متجر فوري:</strong> لوحة تحكم سهلة لرفع المنتجات وتحديد الأسعار خلال دقائق.',
+      p2_f2: '<strong>تصفح مركزي ذكي:</strong> البحث عن المنتجات والخدمات المحلية جغرافياً وحسب التصنيف.',
+      p2_f3: '<strong>باقات تسويقية ذكية:</strong> إبراز المتجر وإحصائيات تحليلية لحركة المبيعات.',
+      p2_f4: '<strong>منظومة تواصل ودفع مباشرة:</strong> ربط الزبائن بالمتجر عبر قنوات تواصل ودفع سريعة.',
+      p2_impact_box: '<strong>الأثر الاقتصادي:</strong> تخفيض التكاليف التشغيلية على المشاريع الناشئة ومساعدتها على الانتشار الرقمي المستدام.',
+      sim_p2_btn: '🛍️ معاينة لوحة المتجر',
+      sim_p2_out: '<strong>🏪 متجر "أثر" المحلي:</strong> ٢٤ منتجاً نشطاً · <strong>+٤٢٪ نمو في الطلبات الجغرافية القريبة</strong>.',
+      p3_domain: 'تصنيف: ذكاء اصطناعي وصحة رقمية',
+      p3_title: 'منصة "شَـفـاء" لإدارة الرعاية والفرز الصحي الذكي',
+      p3_summary: 'منظومة صحية ذكية تربط المستشفيات بفرز طبي بالذكاء الاصطناعي وسجل طبي موحد وتأهيل رقمي.',
+      p3_ov_title: 'رؤية مشروع شَـفـاء',
+      p3_ov_desc: 'إعادة تنظيم المنظومة الطبية في أوقات الأزمات والضغط الشديد وتخفيف العبء عن الكوادر الطبية.',
+      p3_feat_title: 'أهم محاور المنصة:',
+      p3_f1: '<strong>نظام الفرز الطبي الذكي (AI Clinical Triage):</strong> تحليل الأعراض صوتياً أو نصياً وتوجيه المريض لأقرب طوارئ.',
+      p3_f2: '<strong>تبويبات المستشفيات والأطباء الموحدة:</strong> استعراض المواعيد والأقسام الشاغرة وتوزيع الضغط.',
+      p3_f3: '<strong>السجل الطبي الموحد (Unified EHR):</strong> ملف صحي مشفر يتيح قراءة التاريخ المرضي فورياً.',
+      p3_f4: '<strong>التأهيل والعلاج الطبيعي الرقمي:</strong> برامج تمارين منزلية مخصصة للمصابين دون عناء التنقل.',
+      p3_f5: '<strong>لوحة إدارة الأزمات وتنبيهات SMS:</strong> توجيه الحالات للمشافي الأقل ازدحاماً ودعم العمل عند انقطاع الإنترنت.',
+      p3_f6: '<strong>مساعد صوتي باللهجة المحلية:</strong> لتسهيل الاستخدام لكبار السن والمصابين.',
+      p3_impact_box: '<strong>الأثر الحيوي:</strong> تقليل التدافع، التوزيع العادل للموارد الطبية، وتوثيق البيانات الصحية لإنقاذ الأرواح.',
+      sim_p3_btn: '🩺 جرّب محاكاة الفرز الطبي',
+      sim_p3_out: '<strong>🎙️ إدخال صوتي باللهجة المحلية:</strong> «والدي عنده ضيقة نفس شديدة وألم بالصدر».<br><strong>🚨 قرار الفرز الذكي:</strong> أولوية قصوى (<strong>Code Red</strong>) · توجيه لأقرب طوارئ متاحة + تنبيه <strong>SMS</strong> فوري.',
+      btn_view_full_proj: 'اعرف المزيد ▾',
+      btn_hide_full_proj: 'إخفاء التفاصيل ▴',
+      art_heading: 'مقالات وتجارب فريق AXIOUX',
+      art_sub: 'مقالات تقنية يكتبها أعضاء الفريق حول هندسة الذكاء الاصطناعي، المعمارية البرمجية، وأساسيات علوم الحاسوب.',
+      art_filter_all: 'كل المقالات',
+      art_filter_ai: 'ذكاء اصطناعي ومنطق',
+      art_filter_sys: 'معمارية وأنظمة',
+      art_filter_cult: 'علوم الحاسوب',
+      btn_add_article: '+ نشر مقال تقني جديد',
+      art_drawer_title: 'إضافة مقال تقني جديد',
+      lbl_art_title: 'عنوان المقال',
+      lbl_art_cat: 'تصنيف المقال',
+      opt_art_ai: 'ذكاء اصطناعي ومنطق',
+      opt_art_sys: 'معمارية وأنظمة',
+      opt_art_cult: 'علوم الحاسوب',
+      lbl_art_author: 'اسم الكاتب',
+      lbl_art_time: 'وقت القراءة',
+      lbl_art_summary: 'نبذة مختصرة',
+      lbl_art_body: 'النص الكامل للمقال',
+      btn_save_article: 'نشر المقال ✦',
+      art1_badge: 'هندسة الذكاء الاصطناعي والمنطق',
+      art1_time: 'بقلم: جنان · ٤ دقائق',
+      art1_title: 'من برمجة إلى تفكير هندسي: المنطق الرياضي والـ Problem Solving',
+      art1_excerpt: 'لماذا الـ AI ليس سحراً بل رياضيات ومنطق، وكيف يشكّل التحليل المنطقي 80% من بناء أي نظام ذكي قبل كتابة الكود.',
+      art1_author: 'جنان (Jenan) · مهندسة ذكاء اصطناعي',
+      art2_badge: 'الرؤية التقنية وهندسة الأنظمة',
+      art2_time: 'بقلم: نورهان طلال حسونة (CTO) · ٣ دقائق',
+      art2_title: 'بناء أنظمة ذكية تثبت جدارتها عبر الزمن: الرؤية التقنية في AXIOUX',
+      art2_excerpt: 'كيف نحول التحديات المعقدة إلى منتجات رقمية قابلة للتوسع وعالية الموثوقية تعكس فلسفة The Art of Being Worthy.',
+      art2_author: 'نورهان طلال حسونة · CTO & AI Engineer',
+      art3_badge: 'علوم الحاسوب والتفكير الحاسوبي',
+      art3_time: 'بقلم: عبد الرحمن · ٤ دقائق',
+      art3_title: 'لماذا يجب أن نتعلم علوم الحاسوب قبل التعمق في لغات البرمجة؟',
+      art3_excerpt: 'المبرمج المتميز ليس من يعرف أكبر عدد من اللغات، بل من يستطيع التفكير بطريقة صحيحة وتحويل المشكلات إلى حلول فعّالة.',
+      art3_author: 'عبد الرحمن · مهندس برمجيات وواجهات',
+      btn_read_article: 'اعرف المزيد ▾',
+      btn_hide_article: 'طي المقال ▴',
+      courses_soon_badge: 'COURSES & TRAINING · قريباً',
+      courses_soon_title: 'المسارات التدريبية التطبيقية — قريباً',
+      courses_soon_desc: 'نعدّ حالياً مسارات تدريبية عملية مبنية على مشاريعنا الهندسية. سجّل اهتمامك المسبق أو انضم كمدرب أو شريك معنا.',
+      btn_course_interest: 'سجّل اهتمامك أو اطلب شراكة',
+      btn_become_trainer: 'انضم كمدرب معنا',
+      team_heading: 'قيادة وفريق AXIOUX (٨ أعضاء)',
+      team_sub: 'اضغط على بطاقة أي عضو لينزلق الأفاتار جانباً وتظهر لك نبذته، مهاراته، ومشاريعه في نفس المكان.',
+      leader_qassam_bio: 'مؤسس ومدير AXIOUX — يقود الرؤية، هندسة الذكاء الاصطناعي، وتحويل الأفكار إلى مسار عمل واضح.',
+      leader_nourhan_bio: 'مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) — تحوّل التحديات المعقدة إلى منتجات رقمية ذكية قابلة للتوسع وعالية الموثوقية.',
+      m_abdulaziz: 'عبد العزيز',
+      m_batool: 'بتول',
+      m_lama: 'لمى',
+      m_jinan: 'جنان (Jenan)',
+      m_saleh: 'صالح',
+      m_abdelrahman: 'عبد الرحمن',
+      m_qassam: 'قسّام صالح حمدان',
+      m_nourhan: 'نورهان طلال حسونة',
+      member_view_btn: 'اعرف المزيد ▾',
+      member_hide_btn: 'إخفاء التفاصيل ▴',
+      member_view_short: 'اعرف المزيد ▾',
+      member_hide_short: 'طي ▴',
+      join_heading: 'كيف تنضم إلينا أو تبدأ مشروعك معنا؟',
+      join_s1_t: 'أرسل طلبك أو فكرتك',
+      join_s1_d: 'اختر الهدف المناسب في نموذج التواصل أدناه (مشروع جديد، طرح فكرة، أو انضمام للتدريب).',
+      join_s2_t: 'جلسة تقييم وتخطيط',
+      join_s2_d: 'نراجع المتطلبات التقنية مع قيادة الفريق ونحدد نطاق العمل والجدول الزمني بوضوح.',
+      join_s3_t: 'تنفيذ وتوثيق مشترك',
+      join_s3_d: 'نبدأ البناء الفعلي ومراجعة الكود خطوة بخطوة حتى إطلاق المخرج النهائي.',
+      contact_heading: 'تواصل معنا: لتنفيذ مشروع، طرح فكرة، أو شراكة تقنية',
+      contact_sub: 'أرسل لنا تفاصيل مشروعك أو مقترح الشراكة وسيتواصل معك فريق AXIOUX لترتيب خطوة البداية.',
+      lbl_c_name: 'الاسم الكامل أو اسم الجهة / المركز',
+      lbl_c_email: 'البريد الإلكتروني أو رقم التواصل',
+      lbl_c_type: 'الهدف من التواصل',
+      opt_c_proj: 'طلب تنفيذ مشروع تقني',
+      opt_c_part: 'شراكة في قسم الكورسات والتدريب',
+      opt_c_trainer: 'الانضمام كمدرب / مدربة في قسم الكورسات',
+      opt_c_idea: 'اقتراح فكرة مشروع للمجتمع',
+      lbl_c_msg: 'التفاصيل',
+      btn_send_msg: 'إرسال الرسالة ✦',
+      btn_sending_msg: 'جارٍ الإرسال...',
+      privacy_note: 'نستخدم بياناتك فقط للرد عليك.',
+      form_err_validation: 'يرجى تعبئة جميع الحقول المطلوبة بشكل صحيح قبل الإرسال.',
+      form_success_msg: '✓ شكراً لك! تم استلام رسالتك بنجاح لدى فريق AXIOUX وسنتواصل معك قريباً.',
+      form_err_generic: 'تعذّر إرسال النموذج حالياً. يرجى المحاولة لاحقاً أو التواصل معنا مباشرة عبر قنواتنا الرسمية.',
+      form_err_wa_prefix: 'تعذّر إرسال النموذج حالياً. يمكنك مراسلتنا مباشرة عبر واتساب: ',
+      btn_join_wa_comm: 'انضم لمجتمعنا على واتساب ✦',
+      c_side_title: 'مجتمع يبني ويوثّق كل خطوة',
+      c_side_desc: 'في <strong>AXIOUX</strong> نرحب بكل فكرة جادة، مشروع يخدم المجتمع، أو شراكة تدريبية تفتح آفاقاً جديدة للشباب.',
+      c_loc: '<strong>المقر:</strong> غزة، فلسطين',
+      c_focus: '<strong>مجالات العمل:</strong> تطوير المشاريع التقنية، الذكاء الاصطناعي، والمنصات السحابية',
+      c_motto_lbl: 'شعار الهوية:',
+      footer_tagline: '— الجدارة مش ادّعاء، بتنبني بالشغل.',
+      btn_close_modal: '✕ إغلاق'
+    },
+    en: {
+      page_title: 'AXIOUX — The Art of Being Worthy | Interactive Homepage',
+      meta_desc: 'AXIOUX is an AI and cloud engineering community building intelligent platforms and documented technical insights — worthiness is built through work.',
+      skip_to_content: 'Skip to main content',
+      btn_skip_splash: 'Skip Intro ✦',
+      splash_sub: 'Worthiness is not claimed — it is built through work.',
+      nav_projects: 'Project Path',
+      nav_articles: 'Tech Articles',
+      nav_courses: 'Courses',
+      nav_team: 'Team',
+      nav_contact: 'Contact Us',
+      btn_night_mode: '🌙 Dark Mode',
+      btn_ivory_mode: '☀️ Light Mode',
+      aria_lang_btn: 'Switch language to Arabic',
+      aria_theme_btn: 'Toggle theme mode',
+      aria_menu_btn: 'Toggle navigation menu',
+      hero_title: 'Turning Tech Ideas Into <span>Intelligent Platforms &amp; Real Impact.</span>',
+      hero_lead: 'An engineering community designing and building AI solutions and cloud platforms with discipline and creativity — explore our curved project path and team insights below.',
+      hero_cta_projects: 'Explore Project Path ▾',
+      hero_cta_articles: 'Team Articles',
+      wing_disc: 'Discipline',
+      wing_creat: 'Creativity',
+      eq_unmerged: 'Discipline + Creativity = ?',
+      eq_merged: '✦ Discipline + Creativity = Real Impact (AXIOUX) ✦',
+      btn_merge_wings: 'Merge the Wings Now ✦',
+      btn_unmerge_wings: 'Separate Wings',
+      stat_members_lbl: 'Core Team Members',
+      stat_projects_lbl: 'Classified Platforms & Projects',
+      stat_articles_lbl: 'Published Tech Articles',
+      proj_heading: 'Upcoming & Current Projects Along Our Innovation Path',
+      proj_sub: 'Concise cards classified by technical domain along an interactive curved scroll path — click "Learn More" on any card to inspect full specs and live simulations.',
+      filter_upcoming: 'Upcoming Projects (3)',
+      filter_current: 'Current Projects',
+      filter_all: 'View All',
+      filter_ai: 'Artificial Intelligence (AI)',
+      filter_cloud: 'Cloud & E-Commerce',
+      filter_health: 'Digital Health & AI',
+      badge_upcoming: 'UPCOMING',
+      badge_current: 'LIVE PROJECT',
+      curr_slot_title: 'Current & Launched Projects Slot',
+      curr_slot_desc: 'Reserved strictly for tangible projects completed and launched by the AXIOUX team. We are actively developing our first flagship platform from our upcoming roadmap.',
+      btn_add_first_current: '+ Add First Tangible Current Project',
+      btn_add_proj: '+ Add New Project',
+      drawer_title: 'Add a New Project',
+      lbl_proj_title: 'Project Title',
+      lbl_proj_type: 'Project Stage',
+      opt_type_current: 'Current Tangible Project',
+      opt_type_upcoming: 'Upcoming Project',
+      lbl_proj_status: 'Technical Domain',
+      lbl_proj_tags: 'Tech Stack (comma-separated)',
+      lbl_proj_desc: 'Short Summary',
+      btn_save_proj: 'Save & Add ✦',
+      btn_cancel: 'Cancel',
+      p1_domain: 'Category: AI & EdTech',
+      p1_title: 'Smart Code Learning & AI Grading Platform',
+      p1_summary: 'Interactive browser environment executing Python & C++ via WebAssembly with a step-by-step Socratic AI mentor.',
+      p1_ov_title: 'Project Overview',
+      p1_ov_desc: 'A zero-install environment enabling learners to write and run Python and C++ directly in the browser via WebAssembly.',
+      p1_feat_title: 'Key Features:',
+      p1_f1: '<strong>Fast Built-in Code Editor:</strong> Multi-language support with syntax highlighting and autocompletion.',
+      p1_f2: '<strong>Automated Grading Engine:</strong> Instant verification of output against diverse test cases.',
+      p1_f3: '<strong>Smart AI Guide:</strong> Analyzes logical errors and guides students progressively without giving away direct answers.',
+      p1_f4: '<strong>Progressive Tracks:</strong> Coding challenges structured from beginner to advanced.',
+      p1_req_box: '<strong>Tech Stack:</strong> Python Engine, WebAssembly (Wasm), Large Language Models (LLM API), Node.js, WebSockets.',
+      sim_p1_btn: '▶ Try AI Mentor Demo',
+      sim_p1_out: '<strong>✕ Grader (Test #2):</strong> Expected <code>12</code>, got <code>9</code>.<br><strong>💡 AI Guide Hint:</strong> Check your modulo condition <code>n % 2 == 1</code> so only even integers are summed.',
+      p2_domain: 'Category: Cloud & E-Commerce',
+      p2_title: 'SME & Micro-Storefront Support Platform',
+      p2_summary: 'Unified cloud platform empowering emerging shops with instant storefronts, geo-discovery, and smart analytics.',
+      p2_ov_title: 'Platform Vision',
+      p2_ov_desc: 'Empowering entrepreneurs and micro-stores with professional storefront pages without standalone development overhead.',
+      p2_feat_title: 'Core Highlights:',
+      p2_f1: '<strong>Instant Storefront Creation:</strong> Upload products, set pricing, and launch in minutes.',
+      p2_f2: '<strong>Smart Centralized Discovery:</strong> Search local products and services by location and category.',
+      p2_f3: '<strong>Smart Marketing Tiers:</strong> Store spotlighting and real-time sales analytics.',
+      p2_f4: '<strong>Direct Payment & Chat:</strong> Seamless buyer-to-merchant communication and checkout.',
+      p2_impact_box: '<strong>Economic Impact:</strong> Lowering operational costs for emerging businesses and accelerating sustainable digital growth.',
+      sim_p2_btn: '🛍️ Preview Storefront Demo',
+      sim_p2_out: '<strong>🏪 "Athar" Local Store:</strong> 24 Active Products · <strong>+42% growth in nearby geo-discovery orders</strong>.',
+      p3_domain: 'Category: AI & Digital Health',
+      p3_title: '"Shifaa" — Smart Healthcare & Clinical Triage Platform',
+      p3_summary: 'Smart healthcare ecosystem connecting hospitals with dialect-aware AI clinical triage, unified EHR, and digital rehab.',
+      p3_ov_title: 'Vision of Project Shifaa',
+      p3_ov_desc: 'Reorganizing medical triage and hospital coordination during high-pressure emergencies to relieve frontline teams.',
+      p3_feat_title: 'Core Platform Pillars:',
+      p3_f1: '<strong>AI Clinical Triage:</strong> Voice/text symptom analysis routing patients to the right urgency level or nearest ER.',
+      p3_f2: '<strong>Unified Hospital Hubs:</strong> Live visibility into doctor schedules and department capacity.',
+      p3_f3: '<strong>Unified Encrypted EHR:</strong> Instant medical history lookup across connected hospitals.',
+      p3_f4: '<strong>Digital Home Rehab:</strong> Guided physical therapy modules for trauma and amputee recovery.',
+      p3_f5: '<strong>Crisis Dashboard & SMS Alerts:</strong> Load balancing and automated SMS fallback during internet blackouts.',
+      p3_f6: '<strong>Local Dialect Voice Assistant:</strong> Accessible Arabic dialect understanding for seniors and injured patients.',
+      p3_impact_box: '<strong>Vital Impact:</strong> Reducing ER overcrowding, fair medical resource distribution, and saving lives in critical conditions.',
+      sim_p3_btn: '🩺 Simulate AI Triage',
+      sim_p3_out: '<strong>🎙️ Dialect Voice Input:</strong> "Elderly patient with severe shortness of breath and chest pain."<br><strong>🚨 AI Triage Decision:</strong> Critical Priority (<strong>Code Red</strong>) · Routed to nearest low-load ER + instant <strong>SMS</strong> alert.',
+      btn_view_full_proj: 'Learn More ▾',
+      btn_hide_full_proj: 'Hide Details ▴',
+      art_heading: 'AXIOUX Team Articles & Insights',
+      art_sub: 'Technical articles written by our team members on AI engineering, system architecture, and computer science fundamentals.',
+      art_filter_all: 'All Articles',
+      art_filter_ai: 'AI & Logic',
+      art_filter_sys: 'Architecture & Systems',
+      art_filter_cult: 'Computer Science',
+      btn_add_article: '+ Publish New Article',
+      art_drawer_title: 'Publish a New Technical Article',
+      lbl_art_title: 'Article Title',
+      lbl_art_cat: 'Category',
+      opt_art_ai: 'AI & Logic',
+      opt_art_sys: 'Architecture & Systems',
+      opt_art_cult: 'Computer Science',
+      lbl_art_author: 'Author Name',
+      lbl_art_time: 'Reading Time',
+      lbl_art_summary: 'Short Excerpt',
+      lbl_art_body: 'Full Article Content',
+      btn_save_article: 'Publish Article ✦',
+      art1_badge: 'AI Engineering & Logic',
+      art1_time: 'By: Jenan · 4 min',
+      art1_title: 'From Coding to Engineering Thinking: Mathematical Logic & Problem Solving',
+      art1_excerpt: 'Why AI is mathematics and structured logic rather than magic — and how 80% of engineering happens before writing a line of code.',
+      art1_author: 'Jenan · AI Engineer at AXIOUX',
+      art2_badge: 'CTO Vision & Architecture',
+      art2_time: 'By: Nourhan Talal Hassouna (CTO) · 3 min',
+      art2_title: 'Building Intelligent Systems That Prove Their Worth Over Time',
+      art2_excerpt: 'How we turn complex challenges into scalable, high-reliability digital products reflecting The Art of Being Worthy.',
+      art2_author: 'Nourhan Talal Hassouna · CTO & AI Engineer',
+      art3_badge: 'Computer Science Fundamentals',
+      art3_time: 'By: Abdelrahman · 4 min',
+      art3_title: 'Why Should We Learn Computer Science Before Diving Deep Into Programming Languages?',
+      art3_excerpt: 'A standout programmer is not defined by knowing the most languages, but by clear computational thinking and effective problem solving.',
+      art3_author: 'Abdelrahman · Software & UI Engineer',
+      btn_read_article: 'Learn More ▾',
+      btn_hide_article: 'Collapse ▴',
+      courses_soon_badge: 'COURSES & TRAINING · COMING SOON',
+      courses_soon_title: 'Hands-On Training Tracks — Coming Soon',
+      courses_soon_desc: 'We are preparing practical training tracks built around our real engineering builds. Register your early interest or partner with us.',
+      btn_course_interest: 'Register Interest / Partner',
+      btn_become_trainer: 'Become a Trainer',
+      team_heading: 'AXIOUX Leadership & Core Team (8 Members)',
+      team_sub: 'Click any member card to slide their avatar aside and reveal their bio, skills, and projects right in place.',
+      leader_qassam_bio: 'Founder & Director of AXIOUX — leads strategic vision, AI engineering, and turning ideas into clear execution.',
+      leader_nourhan_bio: 'AI Engineer & CTO at AXIOUX — transforms complex challenges into smart, scalable, and reliable digital products.',
+      m_abdulaziz: 'Abdulaziz',
+      m_batool: 'Batool',
+      m_lama: 'Lama',
+      m_jinan: 'Jenan',
+      m_saleh: 'Saleh',
+      m_abdelrahman: 'Abdelrahman',
+      m_qassam: 'Qassam Saleh Hamdan',
+      m_nourhan: 'Nourhan Talal Hassouna',
+      member_view_btn: 'Learn More ▾',
+      member_hide_btn: 'Hide Details ▴',
+      member_view_short: 'Learn More ▾',
+      member_hide_short: 'Collapse ▴',
+      join_heading: 'How to Join Us or Start Your Project',
+      join_s1_t: 'Submit Your Request or Idea',
+      join_s1_d: 'Select your inquiry type in the contact form below (new project, idea proposal, or training collaboration).',
+      join_s2_t: 'Technical Scoping Session',
+      join_s2_d: 'We review requirements with our technical leadership and align on scope, stack, and milestones.',
+      join_s3_t: 'Collaborative Build & Docs',
+      join_s3_d: 'We execute, review code, and document every milestone until final delivery.',
+      contact_heading: 'Get in Touch: New Project, Tech Partnership, or Idea',
+      contact_sub: 'Send us your project details or partnership proposal and the AXIOUX team will reach out to kick things off.',
+      lbl_c_name: 'Full Name or Organization / Center Name',
+      lbl_c_email: 'Email Address or Phone Number',
+      lbl_c_type: 'Purpose of Contact',
+      opt_c_proj: 'Request Technical Project Execution',
+      opt_c_part: 'Course & Training Partnership',
+      opt_c_trainer: 'Join as an Instructor in the Courses Division',
+      opt_c_idea: 'Propose a Project Idea to the Community',
+      lbl_c_msg: 'Details',
+      btn_send_msg: 'Send Message ✦',
+      btn_sending_msg: 'Sending...',
+      privacy_note: 'We use your details only to reply to you.',
+      form_err_validation: 'Please fill out all required fields properly before submitting.',
+      form_success_msg: '✓ Thank you! Your message has been received by the AXIOUX team and we will reply shortly.',
+      form_err_generic: 'Could not submit the form right now. Please try again later or reach out via our direct channels.',
+      form_err_wa_prefix: 'Could not submit the form right now. You can message us directly on WhatsApp: ',
+      btn_join_wa_comm: 'Join the WhatsApp Community ✦',
+      c_side_title: 'A Community That Builds & Documents Every Step',
+      c_side_desc: 'At <strong>AXIOUX</strong>, we welcome every serious idea, impactful project, or training partnership that opens new horizons.',
+      c_loc: '<strong>Location:</strong> Gaza, Palestine',
+      c_focus: '<strong>Focus Areas:</strong> Tech Project Development, AI Systems & Cloud Platforms',
+      c_motto_lbl: 'Brand Motto:',
+      footer_tagline: '— Worthiness is not claimed, it is built through work.',
+      btn_close_modal: '✕ Close'
+    }
+  };
+
+  const teamMembersData = {
+    qassam: {
+      initials: 'QH',
+      nameAr: 'قسّام صالح حمدان',
+      nameEn: 'Qassam Saleh Hamdan',
+      roleAr: 'المؤسس والمدير التنفيذي · مهندس ذكاء اصطناعي',
+      roleEn: 'Founder & Director · AI Engineer',
+      bioAr: 'مؤسس وقائد مجتمع وفريق AXIOUX. يقود الرؤية الاستراتيجية، تطوير نماذج الذكاء الاصطناعي ومعالجة اللغة الطبيعية (NLP / LLMs)، تنظيم فرق العمل، وتحويل الأفكار الطموحة إلى منتجات رقمية ذات أثر ملموس.',
+      bioEn: 'Founder and leader of AXIOUX. Leads strategic vision, AI & LLM engineering, team orchestration, external partnerships, and transforming ambitious ideas into high-impact products.',
+      skills: ['AI / LLMs', 'Python', 'NLP & Dialect Models', 'Product Strategy', 'Team Leadership'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a2', titleAr: 'رؤية الهندسة والمعمارية في AXIOUX', titleEn: 'Technical Vision & Architecture at AXIOUX' }
+      ]
+    },
+    nourhan: {
+      initials: 'NTH',
+      nameAr: 'نورهان طلال حسونة',
+      nameEn: 'Nourhan Talal Hassouna',
+      roleAr: 'مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) في AXIOUX',
+      roleEn: 'AI Engineer & Chief Technology Officer (CTO) at AXIOUX',
+      bioAr: 'بصفتي مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) في AXIOUX، أحوّل التحديات المعقدة إلى منتجات رقمية ذكية، قابلة للتوسع وعالية الموثوقية. أؤمن بأن التكنولوجيا العظيمة لا تقتصر على كتابة الأكواد، بل تكمن في بناء أنظمة ذكية تصنع أثراً حقيقياً وتثبت جدارتها عبر الزمن. أقود الرؤية التقنية والتنفيذ الهندسي في الشركة، وأتولى اختيار البنية التقنية (Tech Stack) الأمثل لمشاريعنا، ودمج أحدث حلول الذكاء الاصطناعي، والحفاظ على معايير جودة صارمة عبر المراجعة الدقيقة للكود. وبالعمل عن قرب مع فريقنا الموهوب، أحرص على أن يعكس كل سطر برمجي نطلقه فلسفتنا الأساسية: The Art of Being Worthy.',
+      bioEn: 'As an AI Engineer and Chief Technology Officer (CTO) at AXIOUX, I transform complex challenges into smart, scalable, and highly reliable digital products. I believe great technology is not just about writing code — it is about building intelligent systems that create real impact and prove their worth over time. I lead our technical vision and engineering execution, selecting the optimal Tech Stack, integrating state-of-the-art AI solutions, and upholding strict quality standards through rigorous code reviews so every line of code reflects our core philosophy: The Art of Being Worthy.',
+      skills: ['AI Engineering', 'System Architecture (CTO)', 'Tech Stack Strategy', 'Code Review & Quality', 'Scalable Systems'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a2', titleAr: 'مقال نورهان طلال حسونة: بناء أنظمة ذكية تثبت جدارتها عبر الزمن', titleEn: 'Nourhan Talal Hassouna’s Article: Building Intelligent Systems That Prove Their Worth' }
+      ]
+    },
+    abdulaziz: {
+      initials: 'AZ',
+      nameAr: 'عبد العزيز',
+      nameEn: 'Abdulaziz',
+      roleAr: 'مهندس العمليات وتطوير الأنظمة الخلفية',
+      roleEn: 'Operations & Backend Engineer',
+      bioAr: 'يركّز على بناء واجهات البرمجة (RESTful APIs)، إدارة العمليات التشغيلية للمشاريع، وضمان استقرار الخوادم وتدفق البيانات بسلاسة داخل منصات الفريق.',
+      bioEn: 'Focuses on building robust RESTful APIs, coordinating project operations, and ensuring reliable backend service execution across AXIOUX platforms.',
+      skills: ['Node.js', 'RESTful APIs', 'Backend Logic', 'Project Operations', 'WebSockets'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' }
+      ],
+      articles: [
+        { id: 'a2', titleAr: 'بناء أنظمة ذكية تثبت جدارتها عبر الزمن', titleEn: 'Building Intelligent Systems That Prove Their Worth' }
+      ]
+    },
+    batool: {
+      initials: 'BT',
+      nameAr: 'بتول',
+      nameEn: 'Batool',
+      roleAr: 'مهندسة ذكاء اصطناعي وأنظمة ذكية',
+      roleEn: 'AI & Smart Systems Engineer',
+      bioAr: 'تعمل على تطوير وتخصيص المساعدات الذكية (AI Agents & Fine-tuned Models)، وبناء خوارزميات التوجيه البرمجي والفرز الطبي الذكي.',
+      bioEn: 'Specializes in designing intelligent assistants, prompt engineering, and building AI reasoning pipelines for educational and clinical triage platforms.',
+      skills: ['AI / LLMs', 'Python', 'Smart AI Guides', 'NLP Pipelines', 'Model Evaluation'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a1', titleAr: 'من برمجة إلى تفكير هندسي: المنطق والـ Problem Solving', titleEn: 'From Coding to Engineering Thinking' }
+      ]
+    },
+    lama: {
+      initials: 'LM',
+      nameAr: 'لمى',
+      nameEn: 'Lama',
+      roleAr: 'مهندسة ذكاء اصطناعي وتحليل بيانات',
+      roleEn: 'AI & Data Analytics Engineer',
+      bioAr: 'تتولى بناء محركات التحليل الإحصائي (Analytics Engines)، تجهيز البيانات السريرية والتعليمية، واستخراج المؤشرات الذكية لدعم اتخاذ القرار في منصات الفريق.',
+      bioEn: 'Builds analytics engines, structures training and clinical datasets, and designs actionable insights dashboards for merchants and healthcare teams.',
+      skills: ['Data Analysis', 'Analytics Engine', 'Python', 'Machine Learning', 'Data Visualization'],
+      projects: [
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a1', titleAr: 'من برمجة إلى تفكير هندسي: المنطق والـ Problem Solving', titleEn: 'From Coding to Engineering Thinking' }
+      ]
+    },
+    jinan: {
+      initials: 'JN',
+      nameAr: 'جنان (Jenan)',
+      nameEn: 'Jenan',
+      roleAr: 'مهندسة ذكاء اصطناعي وتصميم منطق الأنظمة (AI Engineering & Logic)',
+      roleEn: 'AI Engineering & Algorithmic Logic Specialist',
+      bioAr: 'طالبة ومهندسة ذكاء اصطناعي في AXIOUX، تركّز على الأساس الرياضي والمنطقي للخوارزميات، تحليل المشكلات المعقدة (Problem Solving)، وتصميم الهياكل المنطقية للأنظمة قبل تحويلها إلى كود فعّال بـ Python وC++.',
+      bioEn: 'AI engineering specialist at AXIOUX focused on the mathematical and logical foundations of algorithms, structural problem solving, and designing clean system logic in Python and C++.',
+      skills: ['AI Engineering', 'Mathematical Logic', 'Problem Solving', 'Algorithms', 'Python & C++'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a1', titleAr: 'مقال جنان (Jenan): من برمجة » تفكير هندسي.. المنطق والـ Problem Solving', titleEn: 'Jenan’s Article: From Coding to Engineering Thinking & Problem Solving' }
+      ]
+    },
+    saleh: {
+      initials: 'SL',
+      nameAr: 'صالح',
+      nameEn: 'Saleh',
+      roleAr: 'مهندس أمن سيبراني وحماية الأنظمة',
+      roleEn: 'Cyber Security & Backend Engineer',
+      bioAr: 'يشرف على معايير أمن المعلومات، تشفير السجلات الطبية الحساسة (HIPAA/Security Standards)، وحماية بيئات تنفيذ الأكواد وبوابات الدفع الإلكتروني.',
+      bioEn: 'Leads application security, end-to-end encryption for sensitive medical records (HIPAA standards), sandboxed code execution security, and payment safety.',
+      skills: ['Cyber Security', 'HIPAA / Encryption', 'WebAssembly Sandboxing', 'Secure APIs', 'Auth Systems'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      ],
+      articles: [
+        { id: 'a2', titleAr: 'بناء أنظمة ذكية تثبت جدارتها عبر الزمن', titleEn: 'Building Intelligent Systems That Prove Their Worth' }
+      ]
+    },
+    abdelrahman: {
+      initials: 'AR',
+      nameAr: 'عبد الرحمن',
+      nameEn: 'Abdelrahman',
+      roleAr: 'مهندس برمجيات وواجهات الاستخدام (Software & Frontend Engineer)',
+      roleEn: 'Software & Frontend UI Engineer',
+      bioAr: 'مهندس برمجيات وواجهات في AXIOUX، يؤمن بأن جوهر التميز البرمجي ينبع من إتقان أساسيات علوم الحاسوب والتفكير الحاسوبي والخوارزميات عبر لغات مثل C++ وPython لتحويل المشكلات إلى حلول عملية فعّالة.',
+      bioEn: 'Software and UI engineer at AXIOUX driven by strong computer science fundamentals, computational thinking, and algorithmic problem-solving across C++, Python, and modern web interfaces.',
+      skills: ['Computer Science Fundamentals', 'C++ & Python', 'Computational Thinking', 'Frontend & Web UI', 'Problem Solving'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' }
+      ],
+      articles: [
+        { id: 'a3', titleAr: 'مقال عبد الرحمن: لماذا يجب أن نتعلم علوم الحاسوب قبل التعمق في لغات البرمجة؟', titleEn: 'Abdelrahman’s Article: Why Learn Computer Science Before Programming Languages?' }
+      ]
+    }
+  };
+
+  const fullArticlesData = {
+    a1: {
+      ar: {
+        badge: 'هندسة الذكاء الاصطناعي والمنطق · بقلم: جنان (Jenan)',
+        title: 'من برمجة إلى تفكير هندسي: كيف يصنع المنطق الرياضي والـ Problem Solving مهندس ذكاء اصطناعي؟',
+        meta: 'بقلم: جنان (Jenan) · مهندسة ذكاء اصطناعي في AXIOUX',
+        body: '<h4>١. من برمجة » تفكير هندسي...</h4>' +
+              '<p>كطالبة بتدرس هندسة ذكاء اصطناعي.. أول درس تعلمته إنو الـ <strong>AI</strong> مش سحر ولا كلام خيالي.. هو بالأساس رياضيات، هو منطق، وهو بردو خوارزميات مصفوفة صح!!</p>' +
+              '<p>التحدي بالرحلة الأكاديمية مش بس إنو نتعلم نكتب كود بلغة زي <strong>C++</strong> أو <strong>Python</strong> أو غيرها، بل كيف تفهم المنطق الرياضي والتفكير اللي بنبنى عليه النموذج... الذكاء الاصطناعي بيعلمك كيف تفكر كمشكلة وتصمملها حل منطقي قبل ما تبلش كتابة سطر كود، وهاد بالزبط الأساس اللي بيبني مهندس AI شاطر...</p>' +
+              '<h4>٢. Logic &amp; Problem Solving — ليه المنطق والتفكير الهيكلي أهم من حفظ الكود؟!</h4>' +
+              '<p>مرات نيجي نسأل حالنا كدا: هو ليه المنطق والتفكير الهيكلي أهم من حفظ الكود؟! كتير ناس بفكروا إنو البرمجة هي حفظ.. بس بالدراسة العملية بتكتشف إنو <strong>80% من الشغل هو تحليل منطقي وتصميم الدوائر والـ Logic للمشروع</strong>.</p>' +
+              '<p>لما تفهم كيف الأفكار بتترتب وكيف الداتا بتتحرك داخل النظام... بتصير أي لغة برمجة مجرد أداة للتنفيذ. الفهم العميق للأساسيات هو اللي بخليك تبني مشاريع صح من أول مرة بدون تعقيد....</p>' +
+              '<h4>٣. الـ Problem Solving والحياة العملية للهندسة..</h4>' +
+              '<p>أكبر درس بتطلع فيه بسنواتك الأولى بهندسة الذكاء الاصطناعي هو <strong>الصبر على الـ Problem Solving</strong>.. يعني ازاي؟! يعني عادي جداً تقعد ساعتين تعيد وتزيد بخوارزمية أو تجرّب فكرة وما تزبط من أول مرة بس!!</p>' +
+              '<p>الشعور لما الكود يشتغل والمنطق يزبط بيمحي كل التعب. البرمجة والهندسة مش بس دراسة مواد... بل هي أسلوب تفكير بيعلمك كيف تفكك أي مشكلة كبيرة لأجزاء صغيرة وتحلها خطوة بخطوة...</p>'
+      },
+      en: {
+        badge: 'AI Engineering & Logic · By: Jenan',
+        title: 'From Coding to Engineering Thinking: How Mathematical Logic & Problem Solving Forge an AI Engineer',
+        meta: 'By: Jenan · AI Engineer at AXIOUX',
+        body: '<h4>1. From Coding » Engineering Thinking...</h4>' +
+              '<p>As an AI engineering student, the very first lesson I learned is that <strong>AI</strong> is neither magic nor science fiction — at its core, it is mathematics, logic, and carefully aligned algorithms!</p>' +
+              '<p>The real challenge in the academic and engineering journey is not merely writing syntax in <strong>C++</strong> or <strong>Python</strong>, but understanding the mathematical logic and reasoning behind the model. AI teaches you to analyze a problem and design its logical solution before writing a single line of code — and that is the exact foundation of a strong AI engineer.</p>' +
+              '<h4>2. Logic &amp; Problem Solving — Why Structural Thinking Beats Memorizing Syntax</h4>' +
+              '<p>Why is logical, structural thinking far more important than memorizing code? Many assume programming is about memorization, but hands-on practice reveals that <strong>80% of the work is logical analysis and designing the system’s flow</strong>.</p>' +
+              '<p>Once you understand how ideas are structured and how data moves through a system, any programming language becomes simply an execution tool. Deep mastery of fundamentals is what enables you to build projects right the first time without unnecessary complexity.</p>' +
+              '<h4>3. Patience in Problem Solving &amp; Real Engineering Life</h4>' +
+              '<p>The biggest lesson in the early years of AI engineering is <strong>patience with Problem Solving</strong>: spending hours iterating on an algorithm or testing an approach that does not work on the first try — until the moment the logic clicks and the code runs, erasing all the fatigue.</p>' +
+              '<p>Programming and engineering are not just academic courses; they are a mindset that teaches you how to break any complex challenge into small parts and solve them step by step.</p>'
+      }
+    },
+    a2: {
+      ar: {
+        badge: 'الرؤية التقنية وهندسة الأنظمة · بقلم: نورهان طلال حسونة (CTO)',
+        title: 'بناء أنظمة ذكية تثبت جدارتها عبر الزمن: الرؤية التقنية والمعمارية الهندسية في AXIOUX',
+        meta: 'بقلم: نورهان طلال حسونة (Nourhan Talal Hassouna) · المديرة التقنية (CTO) ومهندسة ذكاء اصطناعي في AXIOUX',
+        body: '<h4>١. من التحديات المعقدة إلى منتجات ذكية عالية الموثوقية</h4>' +
+              '<p>بصفتي <strong>مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) في AXIOUX</strong>، أحوّل التحديات المعقدة إلى منتجات رقمية ذكية، قابلة للتوسع وعالية الموثوقية. أؤمن بأن التكنولوجيا العظيمة لا تقتصر على كتابة الأكواد، بل تكمن في بناء أنظمة ذكية تصنع أثراً حقيقياً وتثبت جدارتها عبر الزمن.</p>' +
+              '<h4>٢. قيادة الرؤية التقنية ومعايير الجودة الصارمة</h4>' +
+              '<p>أقود الرؤية التقنية والتنفيذ الهندسي في الشركة، وأتولى اختيار البنية التقنية (<strong>Tech Stack</strong>) الأمثل لمشاريعنا، ودمج أحدث حلول الذكاء الاصطناعي، والحفاظ على معايير جودة صارمة عبر المراجعة الدقيقة للكود.</p>' +
+              '<h4>٣. تجسيد فلسفة The Art of Being Worthy في كل سطر برمجي</h4>' +
+              '<p>وبالعمل عن قرب مع فريقنا الموهوب، أحرص على أن يعكس كل سطر برمجي نطلقه فلسفتنا الأساسية: <strong>The Art of Being Worthy</strong>.</p>'
+      },
+      en: {
+        badge: 'CTO Vision & Architecture · By: Nourhan Talal Hassouna',
+        title: 'Building Intelligent Systems That Prove Their Worth Over Time: Technical Vision & Architecture at AXIOUX',
+        meta: 'By: Nourhan Talal Hassouna · Chief Technology Officer (CTO) & AI Engineer at AXIOUX',
+        body: '<h4>1. Turning Complex Challenges Into Scalable, Reliable Digital Products</h4>' +
+              '<p>As an <strong>AI Engineer and Chief Technology Officer (CTO) at AXIOUX</strong>, I transform complex challenges into smart, scalable, and highly reliable digital products. I believe great technology is not limited to writing code — it lies in building intelligent systems that create real impact and prove their worth over time.</p>' +
+              '<h4>2. Leading Technical Vision, Tech Stack &amp; Code Quality</h4>' +
+              '<p>I lead the technical vision and engineering execution across the organization, overseeing the optimal <strong>Tech Stack</strong> for our platforms, integrating advanced AI solutions, and maintaining strict quality standards through rigorous code reviews.</p>' +
+              '<h4>3. Living Our Core Philosophy: The Art of Being Worthy</h4>' +
+              '<p>Working closely with our talented team, I ensure that every single line of code we ship reflects our foundational philosophy: <strong>The Art of Being Worthy</strong>.</p>'
+      }
+    },
+    a3: {
+      ar: {
+        badge: 'علوم الحاسوب والتفكير الحاسوبي · بقلم: عبد الرحمن',
+        title: 'لماذا يجب أن نتعلم علوم الحاسوب قبل التعمق في لغات البرمجة؟',
+        meta: 'بقلم: عبد الرحمن (Abdelrahman) · مهندس برمجيات وواجهات في AXIOUX',
+        body: '<p>في بداية رحلتي مع البرمجة، كنت أعتقد أن تعلم البرمجة يقتصر على تعلم لغة معينة وإتقان أوامرها، لكن مع أولى خطواتي في هذا المجال بدأت أكتشف أن البرمجة أعمق بكثير من مجرد كتابة الأكواد؛ فهي طريقة للتفكير وتحليل المشكلات وإيجاد الحلول المناسبة لها.</p>' +
+              '<h4>١. البداية مع لغة C++ وإدراك جوهر الأدوات المنطقية</h4>' +
+              '<p>كانت بدايتي مع لغة <strong>C++</strong>، ومن خلالها تعرفت على المفاهيم الأساسية للبرمجة مثل المتغيرات، والشروط، والحلقات التكرارية، والدوال. ومع الوقت بدأت أدرك أن هذه المفاهيم ليست مجرد أوامر نحفظها، بل أدوات تساعدنا على بناء حلول منطقية ومنظمة.</p>' +
+              '<h4>٢. بين تحكّم C++ وبساطة ومرونة Python</h4>' +
+              '<p>كما بدأت أهتم بالتعرف على لغة <strong>Python</strong>، التي تتميز ببساطة كتابتها وسهولة قراءتها، وتُستخدم في مجالات متعددة مثل الذكاء الاصطناعي وتحليل البيانات وتطوير الويب. وعلى عكس C++، التي تمنح المبرمج تحكمًا أكبر في تفاصيل البرنامج وتُستخدم في التطبيقات التي تحتاج إلى أداء عالٍ، تجعل Python كتابة البرامج وقراءتها أكثر سهولة للمبتدئين.</p>' +
+              '<p>ورغم اختلاف اللغتين في طريقة كتابة الكود وبعض الاستخدامات، فإنهما تشتركان في مفاهيم برمجية أساسية، وهذا ما جعلني أفهم أن تعلم البرمجة لا يتعلق بلغة واحدة، بل بفهم المبادئ التي تقوم عليها.</p>' +
+              '<h4>٣. أهمية علوم الحاسوب وبناء التفكير الحاسوبي</h4>' +
+              '<p>من هنا بدأت أقتنع بأهمية علوم الحاسوب؛ فهي تمنحنا أساسًا قويًا لفهم الخوارزميات وهياكل البيانات وطريقة عمل الحاسوب، والأهم من ذلك تطوير مهارة التفكير الحاسوبي، التي تساعدنا على تقسيم المشكلات وتحليلها والوصول إلى حلول فعّالة.</p>' +
+              '<p>ما زلت في بداية رحلتي، وأعرف أن أمامي الكثير لأتعلمه، لكنني أصبحت أؤمن أن بناء أساس قوي أهم من الاستعجال في تعلم أكبر عدد من لغات البرمجة.</p>' +
+              '<p><strong>فالمبرمج المتميز ليس من يعرف أكبر عدد من اللغات، بل من يستطيع التفكير بطريقة صحيحة وتحويل المشكلات إلى حلول فعّالة.</strong></p>'
+      },
+      en: {
+        badge: 'Computer Science Fundamentals · By: Abdelrahman',
+        title: 'Why Should We Learn Computer Science Before Diving Deep Into Programming Languages?',
+        meta: 'By: Abdelrahman · Software & UI Engineer at AXIOUX',
+        body: '<p>At the beginning of my programming journey, I used to think learning programming meant mastering a single language and memorizing its commands. With my first steps in the field, I discovered that programming is much deeper than writing syntax — it is a way of thinking, analyzing problems, and crafting effective solutions.</p>' +
+              '<h4>1. Starting With C++ &amp; Discovering Logical Building Blocks</h4>' +
+              '<p>My journey began with <strong>C++</strong>, where I learned core programming concepts such as variables, conditionals, loops, and functions. Over time, I realized these concepts are not commands to memorize, but tools for building structured, logical solutions.</p>' +
+              '<h4>2. Bridging Low-Level Control in C++ &amp; Expressive Simplicity in Python</h4>' +
+              '<p>I then explored <strong>Python</strong>, known for its clean readability and wide adoption across AI, data analysis, and web development. While C++ gives developers fine-grained control for high-performance systems, Python makes expressing and reading programs remarkably intuitive.</p>' +
+              '<p>Despite their differences in syntax and use cases, both languages share the exact same underlying principles — proving that programming is about mastering fundamentals rather than a single language.</p>' +
+              '<h4>3. Why Computer Science Comes First</h4>' +
+              '<p>Computer science provides the foundation to understand algorithms, data structures, and how computers actually work — and most importantly, it cultivates computational thinking to decompose complex problems into effective solutions.</p>' +
+              '<p><strong>A standout programmer is not the one who knows the most languages, but the one who thinks clearly and turns problems into effective solutions.</strong></p>'
+      }
+    }
+  };
+
+  const SVG_ICONS = {
+    whatsapp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.82 14.01c-.24.68-1.41 1.3-1.95 1.38-.5.08-1.13.11-1.83-.11-.42-.13-.97-.31-1.66-.61-2.92-1.26-4.82-4.21-4.97-4.4-.15-.19-1.19-1.58-1.19-3.01 0-1.43.75-2.13 1.01-2.42.27-.29.58-.36.78-.36.19 0 .39.01.56.01.18.01.42-.07.66.5.24.58.82 2.01.89 2.16.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.35 1.45.29.15.46.12.63-.07.17-.19.73-.85.92-1.14.19-.29.39-.24.66-.15.27.1 1.7.8 1.99.95.29.15.48.22.56.34.08.12.08.7-.16 1.38z"/></svg>',
+    instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85 0 3.2-.01 3.58-.07 4.85-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07-3.2 0-3.58-.01-4.85-.07-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.64-.07-4.85 0-3.2.01-3.58.07-4.85.15-3.23 1.66-4.77 4.92-4.92 1.27-.06 1.65-.07 4.85-.07z"/></svg>',
+    telegram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.94 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.06 0z"/></svg>',
+    linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28z"/></svg>',
+    github: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z"/></svg>',
+    email: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>',
+    external: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>'
+  };
+
+  function renderDirectAndFooterChannels() {
+    const channels = [];
+    const digits = (SITE_CONFIG.WHATSAPP_NUMBER || '').replace(/\D/g, '');
+    if (digits) channels.push({ href: 'https://wa.me/' + digits, icon: SVG_ICONS.whatsapp, label: 'WhatsApp', ariaAr: 'واتساب', ariaEn: 'WhatsApp' });
+    if (SITE_CONFIG.INSTAGRAM_URL) channels.push({ href: SITE_CONFIG.INSTAGRAM_URL, icon: SVG_ICONS.instagram, label: 'Instagram', ariaAr: 'إنستغرام', ariaEn: 'Instagram' });
+    if (SITE_CONFIG.TELEGRAM_URL) channels.push({ href: SITE_CONFIG.TELEGRAM_URL, icon: SVG_ICONS.telegram, label: 'Telegram', ariaAr: 'تيليجرام', ariaEn: 'Telegram' });
+    if (SITE_CONFIG.LINKEDIN_URL) channels.push({ href: SITE_CONFIG.LINKEDIN_URL, icon: SVG_ICONS.linkedin, label: 'LinkedIn', ariaAr: 'لينكدإن', ariaEn: 'LinkedIn' });
+    if (SITE_CONFIG.GITHUB_URL) channels.push({ href: SITE_CONFIG.GITHUB_URL, icon: SVG_ICONS.github, label: 'GitHub', ariaAr: 'جيت هاب', ariaEn: 'GitHub' });
+    if (SITE_CONFIG.CONTACT_EMAIL) channels.push({ href: 'mailto:' + SITE_CONFIG.CONTACT_EMAIL, icon: SVG_ICONS.email, label: 'Email', ariaAr: 'البريد', ariaEn: 'Email' });
+
+    const directWrap = document.getElementById('directChannelsWrap');
+    const directRow = document.getElementById('directSocialRow');
+    const footerRow = document.getElementById('footerSocialRow');
+    const waCommWrap = document.getElementById('waCommunityWrap');
+
+    const buttonsHtml = channels.map(ch => {
+      const aria = currentLang === 'ar' ? ch.ariaAr : ch.ariaEn;
+      return '<a href="' + ch.href + '" class="social-icon-btn" target="_blank" rel="noopener noreferrer" aria-label="' + aria + '">' + ch.icon + '<span>' + ch.label + '</span></a>';
+    }).join('');
+
+    if (directRow) directRow.innerHTML = buttonsHtml;
+    if (footerRow) footerRow.innerHTML = buttonsHtml;
+
+    if (waCommWrap) {
+      if (SITE_CONFIG.WHATSAPP_COMMUNITY_LINK) {
+        waCommWrap.innerHTML = '<a href="' + SITE_CONFIG.WHATSAPP_COMMUNITY_LINK + '" class="btn btn-primary" target="_blank" rel="noopener noreferrer" style="width:100%;">' + SVG_ICONS.whatsapp + '<span>' + i18n[currentLang].btn_join_wa_comm + '</span></a>';
+      } else {
+        waCommWrap.innerHTML = '';
+      }
+    }
+    if (directWrap) directWrap.style.display = (channels.length > 0 || SITE_CONFIG.WHATSAPP_COMMUNITY_LINK) ? 'block' : 'none';
+  }
+
+  function renderProjectConfigLinks() {
+    document.querySelectorAll('[data-proj-links]').forEach(container => {
+      const pid = container.getAttribute('data-proj-links');
+      const cfg = (SITE_CONFIG.PROJECT_LINKS && SITE_CONFIG.PROJECT_LINKS[pid]) || {};
+      let htmlLinks = '';
+      if (cfg.demo) {
+        const lbl = currentLang === 'ar' ? 'معاينة حية' : 'Live Demo';
+        htmlLinks += '<a href="' + cfg.demo + '" class="social-icon-btn" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">' + SVG_ICONS.external + '<span>' + lbl + '</span></a>';
+      }
+      if (cfg.github) {
+        htmlLinks += '<a href="' + cfg.github + '" class="social-icon-btn" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">' + SVG_ICONS.github + '<span>GitHub</span></a>';
+      }
+      container.innerHTML = htmlLinks;
+    });
+  }
+
+  function bindPreselectContactButtons() {
+    document.querySelectorAll('.preselect-contact-btn').forEach(btn => {
+      btn.onclick = () => {
+        const inq = btn.getAttribute('data-inquiry') || 'partnership';
+        const selectEl = document.getElementById('inquiryType');
+        if (selectEl) selectEl.value = inq;
+        const contactSec = document.getElementById('contact');
+        if (contactSec) contactSec.scrollIntoView({ behavior: 'smooth' });
+        const nameInput = document.getElementById('senderName');
+        if (nameInput) setTimeout(() => nameInput.focus(), 450);
+      };
+    });
+  }
+
+  function updateRealStatsFromDOM() {
+    const mCount = document.querySelectorAll('#coreTeamGrid .member-card').length;
+    const pCount = document.querySelectorAll('#projectsGrid .project-card').length;
+    const aCount = document.querySelectorAll('#articlesGrid .article-card').length;
+    const mEl = document.getElementById('statMembersCount');
+    const pEl = document.getElementById('statProjectsCount');
+    const aEl = document.getElementById('statArticlesCount');
+    if (mEl) mEl.textContent = String(mCount);
+    if (pEl) pEl.textContent = String(pCount);
+    if (aEl) aEl.textContent = String(aCount);
+  }
+
+  function getCustomMemberAvatars() {
+    try { return JSON.parse(localStorage.getItem('axioux_member_avatars') || '{}'); } catch (e) { return {}; }
+  }
+
+  function applySavedAvatarsToPage() {
+    const map = getCustomMemberAvatars();
+    document.querySelectorAll('[data-avatar-box]').forEach(box => {
+      const id = box.getAttribute('data-avatar-box');
+      const cfgPhoto = (SITE_CONFIG.TEAM_LINKS && SITE_CONFIG.TEAM_LINKS[id] && SITE_CONFIG.TEAM_LINKS[id].photo) || '';
+      const src = map[id] || cfgPhoto;
+      if (src) {
+        const m = teamMembersData[id];
+        const altName = m ? (currentLang === 'ar' ? m.nameAr : m.nameEn) : id;
+        box.innerHTML = '<img src="' + src + '" alt="' + altName + '" width="86" height="86" loading="lazy" style="width:100%;height:100%;object-fit:cover;">';
+      } else if (teamMembersData[id]) {
+        const customCrests = {
+          qassam:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<defs><linearGradient id="g-q" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient></defs>' +
+              '<circle cx="50" cy="50" r="42" fill="none" stroke="url(#g-q)" stroke-width="1.6" stroke-dasharray="5 3" opacity="0.75"/>' +
+              '<path d="M26 28 C42 28, 47 44, 50 48 C47 52, 42 68, 26 68 C36 58, 41 52, 45 48 C41 44, 36 38, 26 28 Z" fill="#F8F7F3"/>' +
+              '<path d="M74 28 C58 28, 53 44, 50 48 C53 52, 58 68, 74 68 C64 58, 59 52, 55 48 C59 44, 64 38, 74 28 Z" fill="#3B82F6"/>' +
+              '<path d="M50 10 L53 22 L62 25 L53 28 L50 40 L47 28 L38 25 L47 22 Z" fill="#FBBF24"/>' +
+              '<rect x="14" y="72" width="72" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#60A5FA" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9.5" font-weight="800" letter-spacing="0.5">قسّام · QH</text>' +
+            '</svg>',
+          nourhan:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<defs><linearGradient id="g-n" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#818CF8"/></linearGradient></defs>' +
+              '<circle cx="50" cy="50" r="42" fill="none" stroke="url(#g-n)" stroke-width="1.6" stroke-dasharray="4 4" opacity="0.8"/>' +
+              '<polygon points="50,14 74,27 50,40 26,27" fill="rgba(56,189,248,0.25)" stroke="#38BDF8" stroke-width="1.8"/>' +
+              '<polyline points="26,38 50,51 74,38" fill="none" stroke="#818CF8" stroke-width="2"/>' +
+              '<polyline points="26,49 50,62 74,49" fill="none" stroke="#60A5FA" stroke-width="2"/>' +
+              '<circle cx="50" cy="27" r="3.5" fill="#F8F7F3"/>' +
+              '<rect x="12" y="72" width="76" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#38BDF8" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9" font-weight="800">نورهان · NTH</text>' +
+            '</svg>',
+          abdulaziz:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<circle cx="50" cy="44" r="24" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="6 4"/>' +
+              '<polygon points="50,22 68,32 68,54 50,64 32,54 32,32" fill="rgba(59,130,246,0.2)" stroke="#60A5FA" stroke-width="1.8"/>' +
+              '<circle cx="50" cy="43" r="6" fill="#38BDF8"/>' +
+              '<rect x="10" y="72" width="80" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#60A5FA" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="8.5" font-weight="800">عبدالعزيز · AZ</text>' +
+            '</svg>',
+          batool:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<circle cx="50" cy="44" r="25" fill="rgba(129,140,248,0.12)" stroke="#818CF8" stroke-width="1.5" stroke-dasharray="3 3"/>' +
+              '<path d="M50 16 L55 37 L76 42 L55 47 L50 68 L45 47 L24 42 L45 37 Z" fill="#60A5FA"/>' +
+              '<circle cx="50" cy="42" r="5" fill="#F8F7F3"/>' +
+              '<circle cx="33" cy="27" r="2.5" fill="#93C5FD"/><circle cx="67" cy="27" r="2.5" fill="#93C5FD"/>' +
+              '<rect x="14" y="72" width="72" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#818CF8" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9.5" font-weight="800">بتول · BT</text>' +
+            '</svg>',
+          lama:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<circle cx="50" cy="44" r="25" fill="rgba(45,212,191,0.1)" stroke="#2DD4BF" stroke-width="1.5"/>' +
+              '<rect x="33" y="44" width="6" height="16" rx="3" fill="#38BDF8"/>' +
+              '<rect x="44" y="34" width="6" height="26" rx="3" fill="#60A5FA"/>' +
+              '<rect x="55" y="25" width="6" height="35" rx="3" fill="#2DD4BF"/>' +
+              '<path d="M30 42 Q48 22 66 24" fill="none" stroke="#F8F7F3" stroke-width="1.8"/>' +
+              '<rect x="14" y="72" width="72" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#2DD4BF" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9.5" font-weight="800">لمى · LM</text>' +
+            '</svg>',
+          jinan:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<circle cx="50" cy="43" r="25" fill="rgba(56,189,248,0.12)" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="5 3"/>' +
+              '<polygon points="50,19 71,43 50,67 29,43" fill="rgba(59,130,246,0.22)" stroke="#60A5FA" stroke-width="1.8"/>' +
+              '<circle cx="50" cy="43" r="7" fill="none" stroke="#F8F7F3" stroke-width="1.8"/>' +
+              '<circle cx="50" cy="43" r="2.5" fill="#38BDF8"/>' +
+              '<rect x="12" y="72" width="76" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#38BDF8" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9" font-weight="800">جنان · JENAN</text>' +
+            '</svg>',
+          saleh:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<path d="M50 17 L72 26 V43 C72 56 62 65 50 69 C38 65 28 56 28 43 V26 Z" fill="rgba(59,130,246,0.2)" stroke="#60A5FA" stroke-width="2"/>' +
+              '<rect x="44" y="39" width="12" height="11" rx="2" fill="#F8F7F3"/>' +
+              '<path d="M46 39 V35 A4 4 0 0 1 54 35 V39" fill="none" stroke="#60A5FA" stroke-width="2"/>' +
+              '<rect x="14" y="72" width="72" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#60A5FA" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9.5" font-weight="800">صالح · SL</text>' +
+            '</svg>',
+          abdelrahman:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<circle cx="50" cy="43" r="25" fill="rgba(59,130,246,0.12)" stroke="#60A5FA" stroke-width="1.5"/>' +
+              '<polyline points="39,32 28,43 39,54" fill="none" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>' +
+              '<polyline points="61,32 72,43 61,54" fill="none" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>' +
+              '<line x1="54" y1="29" x2="46" y2="57" stroke="#F8F7F3" stroke-width="2.2" stroke-linecap="round"/>' +
+              '<rect x="8" y="72" width="84" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#38BDF8" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="8.2" font-weight="800">عبدالرحمن · AR</text>' +
+            '</svg>'
+        };
+        box.innerHTML = customCrests[id] || ('<span>' + teamMembersData[id].initials + '</span>');
+      }
+    });
+  }
+
+  function buildMemberInlineDrawerContent(memberId) {
+    const m = teamMembersData[memberId];
+    if (!m) return '';
+    const role = currentLang === 'ar' ? m.roleAr : m.roleEn;
+    const bio = currentLang === 'ar' ? m.bioAr : m.bioEn;
+    const skillsLbl = currentLang === 'ar' ? 'المهارات والتخصصات التقنية:' : 'Technical Specializations & Stack:';
+    const projsLbl = currentLang === 'ar' ? 'المشاريع المشارك في تطويرها:' : 'Contributed Projects:';
+    const artsLbl = currentLang === 'ar' ? 'المقالات المنشورة:' : 'Published Articles:';
+    const uploadLbl = currentLang === 'ar' ? '📷 تغيير صورة الأفاتار' : '📷 Change Avatar Photo';
+
+    const skillsHtml = m.skills.map(s => '<li>' + s + '</li>').join('');
+    const projsHtml = m.projects.map(p => {
+      const pTitle = currentLang === 'ar' ? p.titleAr : p.titleEn;
+      return '<button type="button" class="team-chip-btn inline-jump-proj" data-target-proj="' + p.id + '">🚀 ' + pTitle + '</button>';
+    }).join('');
+    const artsHtml = m.articles.map(a => {
+      const aTitle = currentLang === 'ar' ? a.titleAr : a.titleEn;
+      return '<button type="button" class="team-chip-btn inline-jump-art" data-target-art="' + a.id + '">📖 ' + aTitle + '</button>';
+    }).join('');
+
+    const adminUploadHtml =
+      '<label class="admin-only" onclick="event.stopPropagation()" style="cursor:pointer; font-size:0.78rem; font-weight:700; padding:5px 12px; border-radius:100px; border:1px solid rgba(59,130,246,0.4); color:var(--blue-light); margin-top:8px;">' +
+        uploadLbl +
+        '<input type="file" class="inline-avatar-input" data-member="' + memberId + '" accept="image/*" style="display:none;">' +
+      '</label>';
+
+    return (
+      '<div style="font-size:0.86rem; font-weight:800; color:var(--blue-light); margin-bottom:6px;">' + role + '</div>' +
+      '<p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:10px;">' + bio + '</p>' +
+      '<div style="font-size:0.8rem; font-weight:800; color:var(--blue-light); margin-bottom:6px;">' + skillsLbl + '</div>' +
+      '<ul class="tech-stack-tags" style="margin-bottom:10px;">' + skillsHtml + '</ul>' +
+      '<div style="font-size:0.8rem; font-weight:800; color:var(--blue-light); margin-bottom:6px;">' + projsLbl + '</div>' +
+      '<div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px;">' + projsHtml + '</div>' +
+      '<div style="font-size:0.8rem; font-weight:800; color:var(--blue-light); margin-bottom:6px;">' + artsLbl + '</div>' +
+      '<div style="display:flex; flex-wrap:wrap; gap:8px;">' + artsHtml + '</div>' +
+      adminUploadHtml
+    );
+  }
+
+  function populateAllMemberInlineDrawers() {
+    document.querySelectorAll('[data-member-drawer]').forEach(drawer => {
+      const mId = drawer.getAttribute('data-member-drawer');
+      drawer.innerHTML = buildMemberInlineDrawerContent(mId);
+    });
+
+    document.querySelectorAll('.inline-avatar-input').forEach(inp => {
+      inp.onchange = (ev) => {
+        const file = ev.target.files && ev.target.files[0];
+        const mId = inp.getAttribute('data-member');
+        if (!file || !mId) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+          const map = getCustomMemberAvatars();
+          map[mId] = reader.result;
+          try { localStorage.setItem('axioux_member_avatars', JSON.stringify(map)); } catch (e) {}
+          applySavedAvatarsToPage();
+        };
+        reader.readAsDataURL(file);
+      };
+    });
+
+    document.querySelectorAll('.inline-jump-proj').forEach(btn => {
+      btn.onclick = (ev) => {
+        ev.stopPropagation();
+        const pid = btn.getAttribute('data-target-proj');
+        const pCard = document.querySelector('.project-card[data-proj-id="' + pid + '"]');
+        if (pCard) {
+          applyFilter('all');
+          pCard.classList.add('expanded');
+          const toggleBtn = pCard.querySelector('.open-proj-modal-btn');
+          if (toggleBtn) {
+            toggleBtn.setAttribute('aria-expanded', 'true');
+            toggleBtn.textContent = i18n[currentLang].btn_hide_full_proj;
+          }
+          pCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      };
+    });
+
+    document.querySelectorAll('.inline-jump-art').forEach(btn => {
+      btn.onclick = (ev) => {
+        ev.stopPropagation();
+        const aid = btn.getAttribute('data-target-art');
+        const artBtn = document.querySelector('.open-art-modal-btn[data-art="' + aid + '"]');
+        const artCard = artBtn ? artBtn.closest('.article-card') : null;
+        if (artCard) {
+          applyArtFilter('all');
+          artCard.classList.add('expanded');
+          artBtn.setAttribute('aria-expanded', 'true');
+          artBtn.textContent = i18n[currentLang].btn_hide_article;
+          artCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      };
+    });
+  }
+
+  function updateCardHintsLanguage() {
+    const dict = i18n[currentLang];
+    document.querySelectorAll('.team-interactive-card').forEach(card => {
+      const isExp = card.classList.contains('expanded');
+      const hint = card.querySelector('.member-click-hint');
+      if (!hint) return;
+      hint.textContent = isExp ? dict.member_hide_btn : dict.member_view_btn;
+    });
+
+    document.querySelectorAll('.project-card').forEach(card => {
+      const isExp = card.classList.contains('expanded');
+      const btn = card.querySelector('.open-proj-modal-btn');
+      if (btn) btn.textContent = isExp ? dict.btn_hide_full_proj : dict.btn_view_full_proj;
+    });
+
+    document.querySelectorAll('.article-card').forEach(card => {
+      const isExp = card.classList.contains('expanded');
+      const btn = card.querySelector('.open-art-modal-btn');
+      if (btn) btn.textContent = isExp ? dict.btn_hide_article : dict.btn_read_article;
+    });
+
+    document.querySelectorAll('[data-art-drawer]').forEach(drawer => {
+      const aid = drawer.getAttribute('data-art-drawer');
+      if (aid && fullArticlesData[aid]) {
+        const d = fullArticlesData[aid][currentLang] || fullArticlesData[aid].ar;
+        drawer.innerHTML = d.body;
+      }
+    });
+  }
+
+  const langToggleBtn = document.getElementById('langToggleBtn');
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+  const mainNav = document.getElementById('mainNav');
+  const wingsStage = document.getElementById('wingsStage');
+  const mergeWingsBtn = document.getElementById('mergeWingsBtn');
+  const equationStatusText = document.getElementById('equationStatusText');
+  const equationBox = document.getElementById('equationBox');
+
+  function applyLanguage(lang) {
+    currentLang = lang;
+    const dict = i18n[lang];
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    langToggleBtn.textContent = lang === 'ar' ? 'EN' : 'عربي';
+    langToggleBtn.setAttribute('aria-label', dict.aria_lang_btn);
+    themeToggleBtn.setAttribute('aria-label', dict.aria_theme_btn);
+    if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-label', dict.aria_menu_btn);
+
+    document.title = dict.page_title;
+    const metaDesc = document.getElementById('metaDescription');
+    if (metaDesc) metaDesc.setAttribute('content', dict.meta_desc);
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key]) el.textContent = dict[key];
+    });
+
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      const key = el.getAttribute('data-i18n-html');
+      if (dict[key]) el.innerHTML = dict[key];
+    });
+
+    const isIvory = document.body.classList.contains('ivory-mode');
+    themeToggleBtn.textContent = isIvory ? dict.btn_night_mode : dict.btn_ivory_mode;
+
+    const isMerged = wingsStage.classList.contains('merged');
+    equationStatusText.textContent = isMerged ? dict.eq_merged : dict.eq_unmerged;
+    mergeWingsBtn.textContent = isMerged ? dict.btn_unmerge_wings : dict.btn_merge_wings;
+
+    populateAllMemberInlineDrawers();
+    updateCardHintsLanguage();
+    renderDirectAndFooterChannels();
+    renderProjectConfigLinks();
+  }
+
+  langToggleBtn.addEventListener('click', () => {
+    applyLanguage(currentLang === 'ar' ? 'en' : 'ar');
+  });
+
+  themeToggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('ivory-mode');
+    const isIvory = document.body.classList.contains('ivory-mode');
+    const dict = i18n[currentLang];
+    themeToggleBtn.textContent = isIvory ? dict.btn_night_mode : dict.btn_ivory_mode;
+  });
+
+  mobileMenuBtn.addEventListener('click', () => {
+    const isOpen = mainNav.classList.toggle('open');
+    mobileMenuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  const wingDiscipline = document.getElementById('wingDiscipline');
+  const wingCreativity = document.getElementById('wingCreativity');
+
+  function toggleWingsMerge() {
+    const merged = wingsStage.classList.toggle('merged');
+    if (equationBox) equationBox.classList.toggle('merged-state', merged);
+    const dict = i18n[currentLang];
+    equationStatusText.textContent = merged ? dict.eq_merged : dict.eq_unmerged;
+    mergeWingsBtn.textContent = merged ? dict.btn_unmerge_wings : dict.btn_merge_wings;
+  }
+
+  mergeWingsBtn.addEventListener('click', toggleWingsMerge);
+  wingDiscipline.addEventListener('click', toggleWingsMerge);
+  wingCreativity.addEventListener('click', toggleWingsMerge);
+
+  // 5. PROJECTS FILTERING + IN-PLACE EXPANSION
+  const filterBtns = document.querySelectorAll('#projects .filter-btn');
+  const projectsGrid = document.getElementById('projectsGrid');
+  const currentProjectsPlaceholder = document.getElementById('currentProjectsPlaceholder');
+  const addFirstCurrentProjBtn = document.getElementById('addFirstCurrentProjBtn');
+  const toggleAddDrawerBtn = document.getElementById('toggleAddDrawerBtn');
+  const cancelAddDrawerBtn = document.getElementById('cancelAddDrawerBtn');
+  const addProjectDrawer = document.getElementById('addProjectDrawer');
+  const newProjectForm = document.getElementById('newProjectForm');
+  let activeFilter = 'upcoming';
+
+  function applyFilter(cat) {
+    activeFilter = cat;
+    const cards = projectsGrid.querySelectorAll('.project-card');
+    let visibleCurrentCount = 0;
+
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-category');
+      const cardDomain = card.getAttribute('data-domain') || '';
+      let match = false;
+
+      if (cat === 'all') match = true;
+      else if (cat === 'upcoming' || cat === 'current') match = (cardCat === cat);
+      else if (cat === 'ai') match = (cardDomain === 'ai' || cardDomain === 'health');
+      else match = (cardDomain === cat);
+
+      card.style.display = match ? 'flex' : 'none';
+      if (cardCat === 'current') visibleCurrentCount++;
+    });
+
+    if (currentProjectsPlaceholder) {
+      currentProjectsPlaceholder.style.display = ((cat === 'current' || cat === 'all') && visibleCurrentCount === 0) ? 'flex' : 'none';
+    }
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.getAttribute('data-filter') || 'upcoming';
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter(cat);
+    });
+  });
+
+  if (addFirstCurrentProjBtn) {
+    addFirstCurrentProjBtn.addEventListener('click', () => {
+      document.getElementById('projType').value = 'current';
+      addProjectDrawer.classList.add('open');
+      addProjectDrawer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+
+  toggleAddDrawerBtn.addEventListener('click', () => { addProjectDrawer.classList.toggle('open'); });
+  cancelAddDrawerBtn.addEventListener('click', () => { addProjectDrawer.classList.remove('open'); });
+
+  function toggleProjectCardInPlace(card) {
+    const isExpanded = card.classList.toggle('expanded');
+    const btn = card.querySelector('.open-proj-modal-btn');
+    if (btn) {
+      btn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      btn.textContent = isExpanded ? i18n[currentLang].btn_hide_full_proj : i18n[currentLang].btn_view_full_proj;
+    }
+  }
+
+  function appendProjectCard(item) {
+    const stage = (item.type === 'current') ? 'current' : 'upcoming';
+    const article = document.createElement('article');
+    article.className = 'project-card in-view';
+    article.setAttribute('data-category', stage);
+    article.setAttribute('data-domain', 'ai');
+    article.setAttribute('data-curve-pos', '1');
+
+    const badgeText = stage === 'current' ? i18n[currentLang].badge_current : i18n[currentLang].badge_upcoming;
+    const tagsHtml = (item.tags || []).map(t => '<li>' + t + '</li>').join('');
+
+    article.innerHTML =
+      '<div class="proj-meta-top">' +
+        '<span class="proj-domain-pill">' + item.status + '</span>' +
+        '<span class="proj-status-tag">' + badgeText + '</span>' +
+      '</div>' +
+      '<h3>' + item.title + '</h3>' +
+      '<p class="proj-short-summary">' + item.desc + '</p>' +
+      '<div class="proj-specs-box"><ul class="tech-stack-tags">' + tagsHtml + '</ul></div>' +
+      '<div><button type="button" class="btn-read-more open-proj-modal-btn" aria-expanded="false">' + i18n[currentLang].btn_view_full_proj + '</button></div>';
+
+    projectsGrid.prepend(article);
+    applyFilter(activeFilter);
+    bindInteractiveCardsAndModals();
+    updateRealStatsFromDOM();
+  }
+
+  newProjectForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const title = document.getElementById('projTitle').value.trim();
+    const type = document.getElementById('projType').value;
+    const status = document.getElementById('projStatus').value.trim();
+    const tags = document.getElementById('projTags').value.split(',').map(s => s.trim()).filter(Boolean);
+    const desc = document.getElementById('projDesc').value.trim();
+    appendProjectCard({ title, type, status, tags, desc });
+    newProjectForm.reset();
+    addProjectDrawer.classList.remove('open');
+  });
+
+  // 6. WEB3FORMS CONTACT FORM
+  const contactForm = document.getElementById('contactForm');
+  const contactSubmitBtn = document.getElementById('contactSubmitBtn');
+  const contactToast = document.getElementById('contactToast');
+
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const dict = i18n[currentLang];
+    const name = document.getElementById('senderName').value.trim();
+    const contact = document.getElementById('senderContact').value.trim();
+    const selectEl = document.getElementById('inquiryType');
+    const inquiryTypeVal = selectEl.value;
+    const inquiryText = selectEl.options[selectEl.selectedIndex].text;
+    const message = document.getElementById('senderMsg').value.trim();
+    const botcheck = document.getElementById('botcheck').checked;
+
+    if (name.length < 2 || contact.length < 5 || message.length < 10) {
+      contactToast.style.display = 'block';
+      contactToast.style.borderColor = '#EF4444';
+      contactToast.textContent = dict.form_err_validation;
+      return;
+    }
+
+    contactSubmitBtn.disabled = true;
+    contactSubmitBtn.textContent = dict.btn_sending_msg;
+    contactToast.style.display = 'none';
+
+    try {
+      if (!SITE_CONFIG.WEB3FORMS_ACCESS_KEY) throw new Error('MISSING_KEY');
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          access_key: SITE_CONFIG.WEB3FORMS_ACCESS_KEY,
+          subject: 'AXIOUX — ' + inquiryText,
+          from_name: 'AXIOUX Website',
+          name: name,
+          contact: contact,
+          inquiry_type: inquiryTypeVal,
+          message: message,
+          botcheck: botcheck
+        })
+      });
+      const result = await response.json();
+      if (response.ok && result.success === true) {
+        contactToast.style.display = 'block';
+        contactToast.style.borderColor = '#22C55E';
+        contactToast.textContent = dict.form_success_msg;
+        contactForm.reset();
+      } else {
+        throw new Error('FAILED');
+      }
+    } catch (err) {
+      contactToast.style.display = 'block';
+      contactToast.style.borderColor = '#EF4444';
+      const digits = (SITE_CONFIG.WHATSAPP_NUMBER || '').replace(/\D/g, '');
+      if (digits) {
+        contactToast.innerHTML = dict.form_err_wa_prefix + '<a href="https://wa.me/' + digits + '" target="_blank" rel="noopener noreferrer" style="color:var(--blue-light);font-weight:800;">WhatsApp</a>';
+      } else {
+        contactToast.textContent = dict.form_err_generic;
+      }
+    } finally {
+      contactSubmitBtn.disabled = false;
+      contactSubmitBtn.textContent = dict.btn_send_msg;
+    }
+  });
+
+  // 7. ARTICLES & IN-PLACE EXPANSION
+  const artFilterBtns = document.querySelectorAll('.art-filter-btn');
+  const articlesGrid = document.getElementById('articlesGrid');
+  const toggleAddArticleBtn = document.getElementById('toggleAddArticleBtn');
+  const cancelAddArticleBtn = document.getElementById('cancelAddArticleBtn');
+  const addArticleDrawer = document.getElementById('addArticleDrawer');
+  const newArticleForm = document.getElementById('newArticleForm');
+  const detailReaderModal = document.getElementById('detailReaderModal');
+  const closeReaderModalBtn = document.getElementById('closeReaderModalBtn');
+  let activeArtFilter = 'all';
+
+  function applyArtFilter(cat) {
+    activeArtFilter = cat;
+    articlesGrid.querySelectorAll('.article-card').forEach(card => {
+      card.style.display = (cat === 'all' || card.getAttribute('data-art-cat') === cat) ? 'flex' : 'none';
+    });
+  }
+
+  artFilterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.getAttribute('data-art-filter') || 'all';
+      artFilterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyArtFilter(cat);
+    });
+  });
+
+  toggleAddArticleBtn.addEventListener('click', () => { addArticleDrawer.classList.toggle('open'); });
+  cancelAddArticleBtn.addEventListener('click', () => { addArticleDrawer.classList.remove('open'); });
+  closeReaderModalBtn.addEventListener('click', () => { detailReaderModal.classList.remove('open'); });
+
+  document.addEventListener('keydown', (e) => {
+    if (introSplash && !introSplash.classList.contains('hidden') && (e.key === 'Escape' || e.key === 'Enter')) {
+      dismissSplashImmediately();
+      return;
+    }
+    if (e.key === 'Escape') {
+      detailReaderModal.classList.remove('open');
+      document.querySelectorAll('.team-interactive-card.expanded, .project-card.expanded, .article-card.expanded').forEach(c => {
+        c.classList.remove('expanded');
+        c.setAttribute('aria-expanded', 'false');
+      });
+      updateCardHintsLanguage();
+    }
+  });
+
+  function bindInteractiveCardsAndModals() {
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.onclick = (e) => {
+        if (e.target.closest('a')) return;
+        toggleProjectCardInPlace(card);
+      };
+    });
+
+    document.querySelectorAll('.team-interactive-card').forEach(card => {
+      card.onclick = (e) => {
+        if (e.target.closest('button, a, label, input')) return;
+        const wasExpanded = card.classList.contains('expanded');
+        const parent = card.parentElement;
+        if (parent) {
+          parent.querySelectorAll('.team-interactive-card.expanded').forEach(other => {
+            if (other !== card) {
+              other.classList.remove('expanded');
+              other.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+        card.classList.toggle('expanded', !wasExpanded);
+        card.setAttribute('aria-expanded', !wasExpanded ? 'true' : 'false');
+        updateCardHintsLanguage();
+      };
+      card.onkeydown = (e) => {
+        if ((e.key === 'Enter' || e.key === ' ') && e.target === card) {
+          e.preventDefault();
+          card.click();
+        }
+      };
+    });
+
+    document.querySelectorAll('[data-art-drawer]').forEach(drawer => {
+      const aid = drawer.getAttribute('data-art-drawer');
+      if (aid && fullArticlesData[aid]) {
+        const d = fullArticlesData[aid][currentLang] || fullArticlesData[aid].ar;
+        drawer.innerHTML = d.body;
+      }
+    });
+
+    document.querySelectorAll('.article-card').forEach(card => {
+      card.onclick = (e) => {
+        if (e.target.closest('a')) return;
+        const isExp = card.classList.toggle('expanded');
+        const btn = card.querySelector('.open-art-modal-btn');
+        if (btn) {
+          btn.setAttribute('aria-expanded', isExp ? 'true' : 'false');
+          btn.textContent = isExp ? i18n[currentLang].btn_hide_article : i18n[currentLang].btn_read_article;
+        }
+      };
+    });
+
+    document.querySelectorAll('[data-sim-btn]').forEach(btn => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        const pid = btn.getAttribute('data-sim-btn');
+        const outBox = document.getElementById('simOut_' + pid);
+        if (outBox) outBox.classList.toggle('visible');
+      };
+    });
+  }
+
+  newArticleForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const title = document.getElementById('artTitle').value.trim();
+    const category = document.getElementById('artCategory').value;
+    const author = document.getElementById('artAuthor').value.trim();
+    const readTime = document.getElementById('artReadTime').value.trim();
+    const summary = document.getElementById('artSummary').value.trim();
+    const body = document.getElementById('artBody').value.trim();
+
+    const article = document.createElement('article');
+    article.className = 'article-card';
+    article.setAttribute('data-art-cat', category);
+    article.innerHTML =
+      '<div>' +
+        '<div class="article-meta"><span class="article-cat-badge">' + category + '</span><span class="article-read-time">' + readTime + '</span></div>' +
+        '<h3>' + title + '</h3>' +
+        '<p>' + summary + '</p>' +
+        '<div class="article-inline-body"><p style="white-space:pre-line;">' + body + '</p></div>' +
+      '</div>' +
+      '<div class="article-author-row"><div class="article-author-info"><span>' + author + '</span></div><button type="button" class="btn-read-more open-art-modal-btn">' + i18n[currentLang].btn_read_article + '</button></div>';
+
+    articlesGrid.prepend(article);
+    applyArtFilter(activeArtFilter);
+    bindInteractiveCardsAndModals();
+    updateRealStatsFromDOM();
+    newArticleForm.reset();
+    addArticleDrawer.classList.remove('open');
+  });
+
+  applySavedAvatarsToPage();
+  populateAllMemberInlineDrawers();
+  bindInteractiveCardsAndModals();
+  bindPreselectContactButtons();
+  renderDirectAndFooterChannels();
+  renderProjectConfigLinks();
+  applyFilter('upcoming');
+  updateRealStatsFromDOM();
+})();
+</script>
+</body>
+</html>

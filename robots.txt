@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axioux.com/sitemap.xml
