@@ -7,6 +7,8 @@
 <meta name="description" id="metaDescription" content="AXIOUX مجتمع وفريق تقني يبني منصات الذكاء الاصطناعي والأنظمة السحابية، ويوثّق المعرفة الهندسية — لأن الجدارة بتنبني بالشغل.">
 <meta name="theme-color" content="#070B14">
 <link rel="canonical" id="canonicalLink" href="https://axioux.github.io/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 <!-- Open Graph / Social Sharing -->
 <meta property="og:type" content="website">
@@ -505,7 +507,40 @@
     color: var(--blue-light);
     margin-top: -10px;
   }
-
+.icon-AXIOUS .path1:before {
+  content: "\e913";
+  color: #080f23;
+}
+.icon-AXIOUS .path2:before {
+  content: "\e914";
+  color: #000;
+  margin-left: -1em;
+}
+.icon-AXIOUS .path3:before {
+  content: "\e915";
+  color: #e3ebf8;
+  margin-left: -1em;
+}
+.icon-AXIOUS .path4:before {
+  content: "\e916";
+  color: #e3ebf8;
+  margin-left: -1em;
+}
+.icon-AXIOUS .path5:before {
+  content: "\e917";
+  color: #000;
+  margin-left: -1em;
+}
+.icon-AXIOUS .path6:before {
+  content: "\e918";
+  color: #000;
+  margin-left: -1em;
+}
+.icon-AXIOUS .path7:before {
+  content: "\e919";
+  color: #e3ebf8;
+  margin-left: -1em;
+}
   .hero-title-ar {
     font-family: var(--arabic-head);
     font-size: clamp(2rem, 4.2vw, 3.2rem);
@@ -1434,8 +1469,18 @@
     text-align: center;
     cursor: pointer;
     transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    
   }
-
+  /* bashar🎻 */
+.member-card.member-card--center {
+  grid-column: 2 / 4;
+  justify-self: center;
+  width: calc((100% - 3 * 18px) / 2);
+}
+/* bashar🎻 */
+.member-card.member-card--center.expanded {
+  width: auto;
+}
   .member-card .member-avatar-circle {
     margin: 0 auto 12px;
   }
@@ -1447,13 +1492,33 @@
     color: var(--text-main);
   }
 
-  .member-card span {
-    display: block;
-    font-family: var(--latin);
-    font-size: 0.76rem;
-    color: var(--text-muted);
-    margin-top: 2px;
-  }
+ 
+.member-name {
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  gap: 8px;              
+}
+
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+.fa-linkedin {
+  color: #0a66c2;
+  font-size: 1rem;   
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.fa-linkedin:hover {
+  color: #004182;
+  transform: scale(1.15); 
+  cursor: pointer;
+}
 
   .member-click-hint {
     display: inline-block;
@@ -1474,16 +1539,48 @@
     box-shadow: 0 18px 38px rgba(59, 130, 246, 0.16);
   }
 
-  .member-inline-drawer {
+.member-card {
+  position: relative;
+}
+
+
+.member-card.expanded {
+  z-index: 30;
+  border-color: var(--blue-light);
+  box-shadow: 0 18px 38px rgba(59, 130, 246, 0.22);
+}
+
+
+.member-inline-drawer {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 16px;
+  background: #0d1730;            
+  border: 1px solid var(--blue-light);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  text-align: start;
+  cursor: default;
+}
+
+.member-card.expanded .member-inline-drawer {
+  display: block;
+}
+  /* .member-inline-drawer {
     display: none;
     width: 100%;
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px dashed var(--border-subtle);
     text-align: start;
-  }
+  } */
 
-  .member-card.expanded {
+  /* .member-card.expanded {
     grid-column: 1 / -1;
     display: flex;
     flex-direction: row;
@@ -1492,23 +1589,25 @@
     text-align: start;
     padding: 28px;
     border-color: var(--blue-light);
-  }
+  } */
 
-  .member-card.expanded .member-avatar-circle {
+
+
+  /* .member-card.expanded .member-avatar-circle {
     margin: 0;
     width: 86px;
     height: 86px;
-  }
+  } */
 
-  .member-card.expanded .member-main-wrap {
+  /* .member-card.expanded .member-main-wrap {
     flex: 1;
     min-width: 0;
-  }
-
+  } */
+/* 
   .member-card.expanded .member-inline-drawer,
   .leader-card.expanded .member-inline-drawer {
     display: block;
-  }
+  } */
 
   .leader-card.expanded {
     grid-column: 1 / -1;
@@ -1944,11 +2043,11 @@
         <div class="wings-stage" id="wingsStage">
           <div class="wing-circle wing-discipline" id="wingDiscipline">
             <span data-i18n="wing_disc">انضباط</span>
-            <small style="font-family: var(--latin); font-size: 0.68rem; color: #94A3B8;">#0F172A</small>
+            <!-- <small style="font-family: var(--latin); font-size: 0.68rem; color: #94A3B8;">#0F172A</small> -->
           </div>
           <div class="wing-circle wing-creativity" id="wingCreativity">
             <span data-i18n="wing_creat">إبداع</span>
-            <small style="font-family: var(--latin); font-size: 0.68rem; color: #DBEAFE;">#3B82F6</small>
+            <!-- <small style="font-family: var(--latin); font-size: 0.68rem; color: #DBEAFE;">#3B82F6</small> -->
           </div>
           <div class="spark-center">
             <svg width="96" height="96" viewBox="0 0 120 120">
@@ -2420,7 +2519,7 @@
       <div class="section-header">
         <span class="eyebrow">LEADERSHIP &amp; CORE TEAM</span>
         <h2 data-i18n="team_heading">قيادة وفريق AXIOUX (٨ أعضاء)</h2>
-        <p data-i18n="team_sub">اضغط على بطاقة أي عضو لينزلق الأفاتار جانباً وتظهر لك نبذته، مهاراته، ومشاريعه في نفس المكان.</p>
+        <!-- <p data-i18n="team_sub">اضغط على بطاقة أي عضو لينزلق الأفاتار جانباً وتظهر لك نبذته، مهاراته، ومشاريعه في نفس المكان.</p> -->
       </div>
 
       <div class="leadership-row">
@@ -2451,8 +2550,11 @@
         <div class="member-card team-interactive-card" data-member-id="qassam" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="qassam">QH</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_qassam">قسّام صالح حمدان</strong>
-            <span>Founder &amp; AI Lead</span>
+            <strong data-i18n="m_qassam">قسّام حمدان</strong>
+            <a style="text-decoration: none;" href="https://www.linkedin.com/in/qassam-hamdan-ai/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+             <span>Founder &amp; AI Lead</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="qassam"></div>
           </div>
@@ -2460,7 +2562,10 @@
         <div class="member-card team-interactive-card" data-member-id="nourhan" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="nourhan">NTH</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_nourhan">نورهان طلال حسونة</strong>
+            <strong data-i18n="m_nourhan">نورهان حسونة</strong>
+            <a style="text-decoration: none;" href="https://www.linkedin.com/in/nourhan-hassouna-aa11463ab?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>CTO &amp; Architecture</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="nourhan"></div>
@@ -2469,7 +2574,10 @@
         <div class="member-card team-interactive-card" data-member-id="abdulaziz" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="abdulaziz">AZ</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_abdulaziz">عبد العزيز</strong>
+            <strong data-i18n="m_abdulaziz">عبد العزيز سلامة</strong>
+            <a style="text-decoration: none;" href="........" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>Operations &amp; Backend</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="abdulaziz"></div>
@@ -2478,7 +2586,10 @@
         <div class="member-card team-interactive-card" data-member-id="batool" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="batool">BT</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_batool">بتول</strong>
+            <strong data-i18n="m_batool"> بتول المقيّد</strong>
+            <a style="text-decoration: none;" href="........" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>AI &amp; Smart Systems</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="batool"></div>
@@ -2488,6 +2599,9 @@
           <div class="member-avatar-circle" data-avatar-box="lama">LM</div>
           <div class="member-main-wrap">
             <strong data-i18n="m_lama">لمى</strong>
+            <a style="text-decoration: none;" href="........" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>AI &amp; Data Analysis</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="lama"></div>
@@ -2496,7 +2610,11 @@
         <div class="member-card team-interactive-card" data-member-id="jinan" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="jinan">JN</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_jinan">جنان (Jenan)</strong>
+            <strong data-i18n="m_jinan">جنان الرَّحمَٰن الجمّال</strong>
+            
+            <a style="text-decoration: none;" href="https://www.linkedin.com/in/jenan-alrahman-aljammal-9b3207417?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>AI Engineering &amp; Logic</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="jinan"></div>
@@ -2505,7 +2623,10 @@
         <div class="member-card team-interactive-card" data-member-id="saleh" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="saleh">SL</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_saleh">صالح</strong>
+            <strong data-i18n="m_saleh">صالح فروانة</strong>
+            <a style="text-decoration: none;" href="https://www.linkedin.com/in/sameh-fer-385a74394/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>Cyber Security &amp; Backend</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="saleh"></div>
@@ -2514,12 +2635,27 @@
         <div class="member-card team-interactive-card" data-member-id="abdelrahman" tabindex="0" role="button" aria-expanded="false">
           <div class="member-avatar-circle" data-avatar-box="abdelrahman">AR</div>
           <div class="member-main-wrap">
-            <strong data-i18n="m_abdelrahman">عبد الرحمن</strong>
+            <strong data-i18n="m_abdelrahman">عبدالرَّحمَٰن الجديلي</strong>           
+            <a style="text-decoration: none;" href="........" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
             <span>Frontend &amp; Web UI</span>
             <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
             <div class="member-inline-drawer" data-member-drawer="abdelrahman"></div>
           </div>
         </div>
+        <div class="member-card member-card--center team-interactive-card" data-member-id="bashar" tabindex="0" role="button" aria-expanded="false">
+        <div class="member-avatar-circle" data-avatar-box="bashar">BA</div>
+        <div class="member-main-wrap">
+          <strong data-i18n="m_bashar">بشّار بشناق</strong>
+          <a style="text-decoration: none;" href="........" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <span>Backend &amp; AI Solutions</span>
+          <span class="member-click-hint" data-i18n="member_view_short">اعرف المزيد ▾</span>
+          <div class="member-inline-drawer" data-member-drawer="bashar"></div>
+        </div>
+      </div>
       </div>
 
       <div style="margin-top: 54px;">
@@ -2656,14 +2792,15 @@
       p3: { demo: "", github: "" }
     },
     TEAM_LINKS: {
-      qassam:      { photo: "", linkedin: "", github: "https://github.com/qassam-hue" },
-      nourhan:     { photo: "", linkedin: "", github: "" },
+      qassam:      { photo: "", linkedin: "https://www.linkedin.com/in/qassam-hamdan-ai/", github: "https://github.com/qassam-hue" },
+      nourhan:     { photo: "", linkedin: "https://www.linkedin.com/in/nourhan-hassouna-aa11463ab?utm_source=share_via&utm_content=profile&utm_medium=member_android", github: "https://github.com/nourhanhassouna" },
       abdulaziz:   { photo: "", linkedin: "", github: "" },
-      batool:      { photo: "", linkedin: "", github: "" },
+      batool:      { photo: "", linkedin: "", github: "https://github.com/foxamoca" },
       lama:        { photo: "", linkedin: "", github: "" },
-      jinan:       { photo: "", linkedin: "", github: "" },
-      saleh:       { photo: "", linkedin: "", github: "" },
-      abdelrahman: { photo: "", linkedin: "", github: "" }
+      jinan:       { photo: "", linkedin: "https://www.linkedin.com/in/jenan-alrahman-aljammal-9b3207417?utm_source=share_via&utm_content=profile&utm_medium=member_android", github: "https://github.com/jenanaljammal" },
+      saleh:       { photo: "", linkedin: "https://www.linkedin.com/in/sameh-fer-385a74394/", github: "https://github.com/Zero1264" },
+      abdelrahman: { photo: "", linkedin: "", github: "" },
+      bashar:      { photo: "", linkedin: "https://www.linkedin.com/in/bashar-bushnaq-142894419/", github: "https://github.com/basharbushnaq03-star" },
     },
     COURSES: []
   };
@@ -3205,14 +3342,15 @@
       team_sub: 'Click any member card to slide their avatar aside and reveal their bio, skills, and projects right in place.',
       leader_qassam_bio: 'Founder & Director of AXIOUX — leads strategic vision, AI engineering, and turning ideas into clear execution.',
       leader_nourhan_bio: 'AI Engineer & CTO at AXIOUX — transforms complex challenges into smart, scalable, and reliable digital products.',
-      m_abdulaziz: 'Abdulaziz',
-      m_batool: 'Batool',
+      m_abdulaziz: 'Abdulaziz Salameh',
+      m_batool: 'Batool Al-Muqayyid',
       m_lama: 'Lama',
-      m_jinan: 'Jenan',
-      m_saleh: 'Saleh',
-      m_abdelrahman: 'Abdelrahman',
-      m_qassam: 'Qassam Saleh Hamdan',
-      m_nourhan: 'Nourhan Talal Hassouna',
+      m_jinan: 'Jenan Alrahman Aljammal',
+      m_saleh: 'Saleh Farwana',
+      m_abdelrahman: 'Abdelrahman Al-Jdeili',
+      m_qassam: 'Qassam Hamdan',
+      m_bashar: 'Bashar Bushnaq',
+      m_nourhan: 'Nourhan Hassouna',
       member_view_btn: 'Learn More ▾',
       member_hide_btn: 'Hide Details ▴',
       member_view_short: 'Learn More ▾',
@@ -3272,7 +3410,7 @@
       ]
     },
     nourhan: {
-      initials: 'NTH',
+      initials: 'NH',
       nameAr: 'نورهان طلال حسونة',
       nameEn: 'Nourhan Talal Hassouna',
       roleAr: 'مهندسة ذكاء اصطناعي والمديرة التقنية (CTO) في AXIOUX',
@@ -3290,7 +3428,7 @@
       ]
     },
     abdulaziz: {
-      initials: 'AZ',
+      initials: 'AS',
       nameAr: 'عبد العزيز',
       nameEn: 'Abdulaziz',
       roleAr: 'مهندس العمليات وتطوير الأنظمة الخلفية',
@@ -3307,7 +3445,7 @@
       ]
     },
     batool: {
-      initials: 'BT',
+      initials: 'BA',
       nameAr: 'بتول',
       nameEn: 'Batool',
       roleAr: 'مهندسة ذكاء اصطناعي وأنظمة ذكية',
@@ -3341,7 +3479,7 @@
       ]
     },
     jinan: {
-      initials: 'JN',
+      initials: 'JA',
       nameAr: 'جنان (Jenan)',
       nameEn: 'Jenan',
       roleAr: 'مهندسة ذكاء اصطناعي وتصميم منطق الأنظمة (AI Engineering & Logic)',
@@ -3358,7 +3496,7 @@
       ]
     },
     saleh: {
-      initials: 'SL',
+      initials: 'SF',
       nameAr: 'صالح',
       nameEn: 'Saleh',
       roleAr: 'مهندس أمن سيبراني وحماية الأنظمة',
@@ -3375,7 +3513,7 @@
       ]
     },
     abdelrahman: {
-      initials: 'AR',
+      initials: 'AJ',
       nameAr: 'عبد الرحمن',
       nameEn: 'Abdelrahman',
       roleAr: 'مهندس برمجيات وواجهات الاستخدام (Software & Frontend Engineer)',
@@ -3389,6 +3527,25 @@
       ],
       articles: [
         { id: 'a3', titleAr: 'مقال عبد الرحمن: لماذا يجب أن نتعلم علوم الحاسوب قبل التعمق في لغات البرمجة؟', titleEn: 'Abdelrahman’s Article: Why Learn Computer Science Before Programming Languages?' }
+      ]
+    },
+    bashar: {
+      initials: 'BB',
+      nameAr: 'بشّار بشناق',
+      nameEn: 'Bashar Bushnaq',
+      roleAr: 'مطور أنظمة خلفية وحلول بالذكاء الاصطناعي (Backend & AI Solutions)',
+      roleEn: 'Backend Developer & AI Solutions Engineer',
+      bioAr: 'مطوّر ويب خلفي (Backend) يبني الأنظمة وواجهات البرمجة، ويوظّف الذكاء الاصطناعي لإيجاد حلول عملية للمشكلات وتحويلها إلى منتجات رقمية فعّالة.',
+      bioEn: 'Backend web developer who builds robust systems and APIs, and uses AI to find practical solutions to real-world problems and turn them into effective digital products.',
+      skills: ['Backend Development', 'RESTful APIs', 'AI-Powered Solutions', 'Problem Solving', 'Databases'],
+      projects: [
+        { id: 'p1', titleAr: 'منصة التعلم والتصحيح البرمجي الذكي', titleEn: 'Smart Code Learning & AI Grading Platform' },
+        { id: 'p2', titleAr: 'منصة دعم المتاجر والمشاريع الصغيرة', titleEn: 'SME & Micro-Storefront Cloud Platform' },
+        { id: 'p3', titleAr: 'منصة "شَـفـاء" للفرز الصحي الذكي', titleEn: 'Shifaa Smart Healthcare Triage Platform' }
+      
+      ],
+      articles: [
+       " ....."
       ]
     }
   };
@@ -3655,7 +3812,24 @@
               '<line x1="54" y1="29" x2="46" y2="57" stroke="#F8F7F3" stroke-width="2.2" stroke-linecap="round"/>' +
               '<rect x="8" y="72" width="84" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#38BDF8" stroke-width="1"/>' +
               '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="8.2" font-weight="800">عبدالرحمن · AR</text>' +
+            '</svg>',
+            bashar:
+            '<svg viewBox="0 0 100 100" width="86" height="86">' +
+              '<defs><linearGradient id="g-b" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient></defs>' +
+              '<circle cx="50" cy="43" r="27" fill="rgba(56,189,248,0.1)" stroke="url(#g-b)" stroke-width="1.6" stroke-dasharray="5 3" opacity="0.85"/>' +
+              '<ellipse cx="50" cy="31" rx="15" ry="5.5" fill="rgba(59,130,246,0.25)" stroke="#60A5FA" stroke-width="1.8"/>' +
+              '<path d="M35 31 V43 C35 46 41.7 48.5 50 48.5 C58.3 48.5 65 46 65 43 V31" fill="none" stroke="#60A5FA" stroke-width="1.8"/>' +
+              '<path d="M35 43 V55 C35 58 41.7 60.5 50 60.5 C58.3 60.5 65 58 65 55 V43" fill="none" stroke="#818CF8" stroke-width="1.8"/>' +
+              '<circle cx="50" cy="31" r="2.6" fill="#F8F7F3"/>' +
+              '<line x1="65" y1="34" x2="76" y2="24" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round"/>' +
+              '<circle cx="77" cy="23" r="4" fill="#38BDF8"/>' +
+              '<circle cx="77" cy="23" r="1.6" fill="#F8F7F3"/>' +
+              '<line x1="35" y1="34" x2="24" y2="24" stroke="#A78BFA" stroke-width="1.6" stroke-linecap="round"/>' +
+              '<circle cx="23" cy="23" r="3.2" fill="#A78BFA"/>' +
+              '<rect x="14" y="72" width="72" height="17" rx="8.5" fill="rgba(15,23,42,0.92)" stroke="#38BDF8" stroke-width="1"/>' +
+              '<text x="50" y="83.5" text-anchor="middle" fill="#F8F7F3" font-family="Cairo, Inter, sans-serif" font-size="9.5" font-weight="800">بشار · BA</text>' +
             '</svg>'
+          
         };
         box.innerHTML = customCrests[id] || ('<span>' + teamMembersData[id].initials + '</span>');
       }
