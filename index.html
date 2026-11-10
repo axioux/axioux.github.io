@@ -1472,10 +1472,40 @@
     
   }
   /* bashar🎻 */
-.member-card.member-card--center {
-  grid-column: 2 / 4;
-  justify-self: center;
-  width: calc((100% - 3 * 18px) / 2);
+.core-team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* يوسّط الصف الأخير تلقائياً */
+  gap: 18px;
+}
+
+.member-card {
+  flex: 0 0 calc((100% - 3 * 18px) / 4);   /* 4 بطاقات في الصف */
+  max-width: calc((100% - 3 * 18px) / 4);
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* تابلت: بطاقتان في الصف */
+@media (max-width: 1024px) {
+  .member-card {
+    flex-basis: calc((100% - 18px) / 2);
+    max-width: calc((100% - 18px) / 2);
+  }
+}
+
+/* هاتف: بطاقة في الصف */
+@media (max-width: 600px) {
+  .member-card {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* نص الاسم والتخصص لا يوسّع البطاقة */
+.member-card strong,
+.member-card span {
+  overflow-wrap: anywhere;
 }
 /* bashar🎻 */
 .member-card.member-card--center.expanded {
@@ -1870,7 +1900,7 @@
       display: flex;
     }
   }
-
+/* ندمن تعاطي الروايات حتى لا يرضينا الواقع  */
   @media (max-width: 600px) {
     .container {
       width: calc(100% - 28px);
