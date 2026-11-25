@@ -2764,3 +2764,5 @@ body.ivory-mode .member-inline-drawer {
   flex-shrink: 0 !important;
   display: inline-block !important;
 }
+
+.social-icon-btn svg { width: 18px !important; height: 18px !important; flex-shrink: 0 !important; display: block !important; }
