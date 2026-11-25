@@ -2766,3 +2766,60 @@ body.ivory-mode .member-inline-drawer {
 }
 
 .social-icon-btn svg { width: 18px !important; height: 18px !important; flex-shrink: 0 !important; display: block !important; }
+
+/* 8. Fix Mobile Navigation Menu (Closed by Default, Toggles Cleanly) & Header Button Wrapping */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none !important;
+    position: absolute !important;
+    top: 74px !important;
+    right: 16px !important;
+    left: 16px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    padding: 18px 20px !important;
+    background: rgba(10, 16, 30, 0.97) !important;
+    border: 1px solid rgba(96, 165, 250, 0.3) !important;
+    border-radius: 18px !important;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55) !important;
+    z-index: 200 !important;
+  }
+  body.ivory-mode .nav-links {
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-color: rgba(15, 23, 42, 0.14) !important;
+    box-shadow: 0 18px 44px rgba(15, 23, 42, 0.14) !important;
+  }
+  .nav-links.open {
+    display: flex !important;
+  }
+  .nav-links a {
+    padding: 8px 6px !important;
+    font-size: 0.96rem !important;
+  }
+}
+@media (max-width: 600px) {
+  .nav-inner {
+    gap: 8px !important;
+    min-height: 68px !important;
+  }
+  .lang-btn,
+  .mode-btn,
+  .nav-toggle {
+    white-space: nowrap !important;
+    min-height: 38px !important;
+    padding: 6px 11px !important;
+    font-size: 0.76rem !important;
+    line-height: 1.2 !important;
+    flex-shrink: 0 !important;
+  }
+  .nav-toggle {
+    min-width: 40px !important;
+    padding: 6px 10px !important;
+  }
+  .brand-wordmark,
+  .brand-name {
+    font-size: 1.02rem !important;
+    letter-spacing: 0.12em !important;
+  }
+}
